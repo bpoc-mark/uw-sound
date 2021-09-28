@@ -26,6 +26,18 @@ $(function () {
 });
 
 
+$('.sect_4 .wrapper .row .col img').click(function () {
+  $('.video_modal').fadeToggle();
+});
+
+$('.video_modal .overlay').click(function () {
+  $('.video_modal').fadeToggle();
+});
+
+$('.btn_modal_close').click(function () {
+  $('.video_modal').fadeToggle();
+});
+
 
 // シンプルローディング
 const spinner = document.querySelector('#loading');
@@ -94,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Barlow+Condensed:500','Futura+PT:300,400,600','Ryo+Gothic+PlusN:700,800', 'Noto+Sans+JP:300,400,500&subset=japanese']
+    families: ['Barlow+Condensed:500','Futura+PT:400,500,600,700','Ryo+Gothic+PlusN:700,800', 'Noto+Sans+JP:300,400,500&subset=japanese']
   },
   active: function () {
     sessionStorage.fonts = true;
