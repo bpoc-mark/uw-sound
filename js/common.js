@@ -38,6 +38,10 @@ $('.btn_modal_close').click(function () {
   $('.video_modal').fadeToggle();
 });
 
+$('.menu span img').click(function () {
+  $('.big_menu').fadeToggle();
+});
+
 
 // シンプルローディング
 const spinner = document.querySelector('#loading');
