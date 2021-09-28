@@ -259,8 +259,8 @@
   .sect_4{
     .wrapper{
       position: relative;
-      padding-left: 20px;
-      padding-right: 20px;
+      // padding-left: 20px;
+      // padding-right: 20px;
       padding-bottom: 60px;
       &::before{
         content: "";
@@ -297,7 +297,7 @@
             }
           }
           &:nth-of-type(2){
-            margin-bottom: 35;
+            margin-bottom: 35px;
             img{
               width: 100%;
               cursor: pointer;

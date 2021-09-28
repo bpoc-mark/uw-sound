@@ -84,14 +84,283 @@ header {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  position: relative;
+  background: #191919;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+footer .footer_inner.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer .footer_inner .top {
+  background-color: #2d2d2d;
+  padding: 35px 40px;
+  margin-bottom: 90px;
+}
+
+footer .footer_inner .top .row {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+footer .footer_inner .top .row .col:first-child {
+  width: 60%;
+  padding-right: 50px;
+}
+
+footer .footer_inner .top .row .col:first-child h4 {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+footer .footer_inner .top .row .col:first-child p {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+}
+
+footer .footer_inner .top .row .col:last-child {
+  width: 40%;
+}
+
+footer .footer_inner .top .row .col:last-child h5 {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+}
+
+footer .footer_inner .top .row .col:last-child p {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+  text-indent: -18px;
+  margin-left: 18px;
+}
+
+footer .footer_inner .bottom {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer .footer_inner .bottom .row {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) {
+  width: 622px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1300px) {
+  footer .footer_inner .bottom .row .col:nth-of-type(1) {
+    width: 55%;
+  }
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) .logo {
+  width: 188px;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .footer_inner .bottom .row .col:nth-of-type(1) .logo {
+    width: 30%;
+  }
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) nav {
+  width: calc(100% - 270px);
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .footer_inner .bottom .row .col:nth-of-type(1) nav {
+    width: 65%;
+  }
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) nav ul li:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) nav ul li a {
+  color: #fff;
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  position: relative;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) nav ul li a span {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) nav ul li a:hover::after {
+  width: 100%;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #484848;
+  transition: .3s ease;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) p {
+  width: 100%;
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 15px;
+  border-top: 1px solid #484848;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(1) p a {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) {
+  width: 440px;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1300px) {
+  footer .footer_inner .bottom .row .col:nth-of-type(2) {
+    width: 40%;
+  }
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) h5 {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) p {
+  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) ul li {
+  margin-right: 3px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) ul li a:hover img {
+  opacity: .7;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(2) ul li a img {
+  transition: .3s linear;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(3) {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-top: -12px;
+}
+
+@media only screen and (max-width: 1300px) {
+  footer .footer_inner .bottom .row .col:nth-of-type(3) {
+    width: 60%;
+  }
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(3) .copy {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(3) .copy a {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #929292;
+  border-right: 1px solid #727272;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(3) .copy a:hover::after {
+  width: 85px;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(3) .copy a::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #484848;
+  transition: .3s ease;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+footer .footer_inner .bottom .row .col:nth-of-type(3) .copy small {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #929292;
 }
 
 #pageTop {
-  opacity: 0;
-  position: fixed;
+  opacity: 1;
+  position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 60px;
   z-index: 888;
   transition: 0.3s;
 }
@@ -107,6 +376,10 @@ footer {
 
 #pageTop a:hover {
   opacity: 0.7;
+}
+
+#pageTop a img {
+  width: 33px;
 }
 
 /* loader
@@ -739,8 +1012,6 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_4 .wrapper {
   position: relative;
-  padding-left: 100px;
-  padding-right: 100px;
   padding-bottom: 160px;
 }
 

@@ -124,14 +124,234 @@ header {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  position: relative;
+  background: #191919;
+  padding-top: 22px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  .footer_inner{
+    &.container{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .top{
+      background-color: #2d2d2d;
+      padding: 20px 15px;
+      margin-bottom: 25px;
+      .row{
+        align-items: center;
+        margin-top: 25px;
+        .col{
+          &:first-child{
+            width: 100%;
+            margin-bottom: 20px;
+            h4{
+              @include Ryo_Gothic(500);
+              font-size: 15px;
+              color: #fff;
+              line-height: 22.5px;
+              margin-bottom: 15px;
+            }
+            p{
+              @include Ryo_Gothic(500);
+              font-size: 14px;
+              color: #fff;
+              line-height: 22px;
+            }
+          }
+          &:last-child{
+            width: 100%;
+            h5{
+              @include Ryo_Gothic(500);
+              font-size: 14px;
+              color: #fff;
+              line-height: 28px;
+            }
+            p{
+              @include Ryo_Gothic(500);
+              font-size: 14px;
+              color: #fff;
+              line-height: 28px;
+              text-indent: -18px;
+              margin-left: 18px;
+            }
+          }
+        }
+      }
+    }
+    .bottom{
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+      .row{
+        align-items: flex-start;
+        justify-content: space-between;
+        .col{
+          &:nth-of-type(1){
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .logo{
+              width: 100%;
+              margin-bottom: 30px;
+              a{
+                img{
+                  width: 108px;
+                }
+              }
+            }
+            nav{
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              ul{
+                width: 50%;
+                &:first-child{
+                  @media only screen and (max-width: 350px) {
+                    width: 43%;
+                  }
+                }
+                &:last-child{
+                  @media only screen and (max-width: 350px) {
+                    width: 57%;
+                  }
+                }
+                li{
+                  &:not(:last-child){
+                    margin-bottom: 10px;
+                  }
+                  a{
+                    color: #fff;
+                    @include Ryo_Gothic(500);
+                    font-size: 15px;
+                    
+                    position: relative;
+                    span{
+                      @include Futura_PT(600);
+                      font-size: 15px;
+                    }
+                    &:hover{
+                      &::after{
+                        width: 100%;
+                      }
+                    }
+                    &::after{
+                      content: "";
+                      width: 0;
+                      height: 1px;
+                      background-color: #484848;
+                      transition: .3s ease;
+                      position: absolute;
+                      bottom: -10px;
+                      left: 0;
+                    }
+                  }
+                }
+              }
+            }
+            p{
+              width: 100%;
+              @include Ryo_Gothic(500);
+              font-size: 15px;
+              color: #fff;
+              line-height: 30px;
+              margin-bottom: 30px;
+              border-top: 1px solid #484848;
+              margin-top: 30px;
+              padding-top: 30px;
+              a{
+                @include Ryo_Gothic(500);
+                font-size: 15px;
+                color: #fff;
+                position: relative;
+              }
+            }
+          }
+          &:nth-of-type(2){
+            width: 100%;
+            h5{
+              @include Ryo_Gothic(500);
+              font-size: 14px;
+              color: #fff;
+              margin-bottom: 10px;
+            }
+            p{
+              @include Ryo_Gothic(500);
+              font-size: 14px;
+              color: #fff;
+              line-height: 25px;
+              margin-bottom: 25px;
+            }
+            ul{
+              display: flex;
+              justify-content:flex-start;
+              li{
+                margin-right: 3px;
+                a{
+                  &:hover{
+                    img{
+                      opacity: .7;
+                    }
+                  }
+                  img{
+                    transition: .3s linear;
+                  }
+                }
+              }
+            }
+          }
+          &:nth-of-type(3){
+            width: 100%;
+            margin-top: 25px;
+            .copy{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: flex-start;
+              a{
+                // width: 100%;
+                @include Futura_PT(400);
+                font-size: 14px;
+                color: #929292;
+                border-bottom: 1px solid #484848;
+                margin-bottom: 15px;
+                &:hover{
+                  &::after{
+                    width: 85px;
+                  }
+                }
+                &::after{
+                  content: "";
+                  width: 0;
+                  height: 1px;
+                  background-color: #484848;
+                  transition: .3s ease;
+                  position: absolute;
+                  bottom: -10px;
+                  left: 0;
+                }
+              }
+              small{
+                width: 100%;
+                @include Futura_PT(400);
+                font-size: 13px; 
+                color: #929292;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 #pageTop {
-  opacity: 0;
-  position: fixed;
+  opacity: 1;
+  position: absolute;
   right: 0;
-  bottom: 0;
+  top: 30px;
+  transform: translate(0, -50%);
   z-index: 888;
   transition: 0.3s;
   &.active {
@@ -140,5 +360,11 @@ footer {
   a {
     display: block;
     width: 50px;
+    &:hover {
+      opacity: 0.7;
+    }
+    img{
+      width: 35px;
+    }
   }
 }

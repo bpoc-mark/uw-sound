@@ -90,7 +90,7 @@
 								<div class="swiper-slide">
 									<a href="">
 										<img src="/images/top/section_3/2.png" alt="">
-										<div class="post_Cont">
+										<div class="post_cont">
 											<p class="post_date">2017.12.07</p>
 											<p class="post_title">【お知らせ】オリジナル曲作りのワークショップ申込み受付は終了しました。</p>
 										</div>
@@ -139,7 +139,7 @@
 							<div class="col">
 								<a href="">
 									<img src="/images/top/section_3/2.png" alt="">
-									<div class="post_Cont">
+									<div class="post_cont">
 										<p class="post_date">2017.12.07</p>
 										<p class="post_title">【お知らせ】オリジナル曲作りのワークショップ申込み受付は終了しました。</p>
 									</div>
@@ -169,29 +169,31 @@
 			</section>
 			<section class="sect_4">
 				<div class="wrapper">
-					<div class="row">
-						<div class="col">
-							<h3><span>SDF2021</span> 動画配信</h3>
-							<p>音の可能性を探求するイベント「サウンドデザインフェスティバル in 浜松2021」の実施報告動画です。</p>
-						</div>
-						<div class="col">
-							<img src="/images/top/section_4/1.png" alt="">
-						</div>
-						<div class="col">
-							<ul>
-								<li>
-									<a href="">
-										<span>SFD2021 <br class="pc">Youtube</span>
-										 チャンネル
-									</a>
-								</li>
-								<li>
-									<a href="">
-										動画配信<br class="pc">
-										スケジュール
-									</a>
-								</li>
-							</ul>
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<h3><span>SDF2021</span> 動画配信</h3>
+								<p>音の可能性を探求するイベント「サウンドデザインフェスティバル in 浜松2021」の実施報告動画です。</p>
+							</div>
+							<div class="col">
+								<img src="/images/top/section_4/1.png" alt="">
+							</div>
+							<div class="col">
+								<ul>
+									<li>
+										<a href="">
+											<span>SFD2021 <br class="pc">Youtube</span>
+											チャンネル
+										</a>
+									</li>
+									<li>
+										<a href="">
+											動画配信<br class="pc">
+											スケジュール
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
