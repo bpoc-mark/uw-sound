@@ -5,6 +5,7 @@
   .sect_1{
     .wrapper{
       position: relative;
+      margin-top: 125px;
       &::after{
         content: "";
         display: block;
@@ -99,22 +100,18 @@
                 padding: 22.2px 25px;
                 position: relative;
                 transition: .3s linear;
-                &:hover{
-                  color: #fff;
-                  &::after{
-                    width: 100%;
-                  }
-                  img{
-                    &:nth-of-type(1){
-                      opacity:0;
-                      transition-delay: .3s;
-                    }
-                    &:nth-of-type(2){
-                      opacity:1;
-                      transition-delay: .3s;
-                    }
-                  }
-                }
+                // &:hover{
+                //   color: #fff;
+                //   &::after{
+                //     width: 100%;
+                //   }
+                //   svg{
+                //     .cls-2{
+                //       stroke: #fff;
+                //       transition-delay: .3s;
+                //     }
+                //   }
+                // }
                 &::after{
                   content: "";
                   display: block;
@@ -127,14 +124,25 @@
                   z-index: -1;
                   transition: .3s linear;
                 }
-                img{
+                svg{
                   width: 17px;
                   position: absolute;
                   top: 50%;
                   right: 20px;
                   transform: translate(0, -50%);
-                  &:nth-of-type(2){
-                    opacity: 0;
+                  .cls-2{
+                    animation: fill_btn 2s infinite;
+                  }
+                }
+                @keyframes fill_btn {
+                  0% {
+                    stroke-dashoffset: -88;
+                    stroke-dasharray: 86;
+                  }
+                
+                  100% {
+                    stroke-dashoffset: 86;
+                    stroke-dasharray: 86;
                   }
                 }
               }
@@ -320,10 +328,32 @@
                   line-height: 24px;
                   color: #0d0d0d;
                   padding: 20px;
+                  position: relative;
                   span{
                     @include Futura_PT(600);
                     font-size: 18px;
                     line-height: 24px;
+                  }
+                  svg{
+                    width: 17px;
+                    position: absolute;
+                    top: 50%;
+                    right: 20px;
+                    transform: translate(0, -50%);
+                    .cls-2{
+                      animation: fill_btn 2s infinite;
+                    }
+                  }
+                  @keyframes fill_btn {
+                    0% {
+                      stroke-dashoffset: -88;
+                      stroke-dasharray: 86;
+                    }
+                  
+                    100% {
+                      stroke-dashoffset: 86;
+                      stroke-dasharray: 86;
+                    }
                   }
                 }
               }

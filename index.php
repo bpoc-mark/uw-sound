@@ -38,13 +38,13 @@
 				<div class="wrapper">
 					<div class="container">
 						<div class="txt_header">
-							<p id="curve_txt">サウンドデザインフェスティバル</p>
-							<p>in <span>浜松</span>2021</p>
-							<h3>音</h3>
+							<p class="c-anim-up" id="curve_txt">サウンドデザインフェスティバル</p>
+							<p class="c-anim-up">in <span>浜松</span>2021</p>
+							<h3 class="c-anim-up">音</h3>
 						</div>
 						<div class="row">
 							<div class="col">
-								<p>
+								<p class="c-anim-up">
 									<span>と創る</span><br>
 									<span>コミュニ</span><br>
 									<span>ケーション</span><br>
@@ -52,14 +52,20 @@
 								</p>
 							</div>
 							<div class="col">
-								<p>を通してつながるコミュニケーション。<br>
+								<p class="c-anim-up">を通してつながるコミュニケーション。<br>
 									モノと人、時間と空間、ローカルとリモート、自然と人工、<br class="pc">過去と今、今と未来、そして音と人。<br>
 									つなげるモノは想像次第、つなげるカタチも創造次第。<br>
 									様々なコミュニケーションのカタチに出逢う<br>
 									サウンドデザインフェスティバル in 浜松2021。</p>
-								<a href="">SDFとは？ 
-									<img src="/images/top/section_2/btn_after-b.svg" alt="">
-									<img src="/images/top/section_2/btn_after-w.svg" alt="">
+								<a href="" class="c-anim-up">SDFとは？ 
+									<!-- <img src="/images/top/section_2/btn_after-b.svg" alt="">
+									<img src="/images/top/section_2/btn_after-w.svg" alt=""> -->
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57">
+										<defs><style>.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs>
+										<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
+											<path class="cls-2" d="M3.91,20.76S7.47,4.62,14.76,4C24.67,3.22,28,20.84,28.67,24.45c1.17,6.47,5.35,12.94,9.87,13.11a8,8,0,0,0,4.86-1.29c4.8-3.57,8-13.45,8-15.35"/></g>
+										</g>
+									</svg>
 								</a>
 							</div>
 						</div>
@@ -69,12 +75,12 @@
 			<section class="sect_3">
 				<div class="wrapper">
 					<div class="txt_header">
-						<h3>TOPICS</h3>
-						<a href="">一覧はこちら</a>
+						<h3 class="c-anim-up">TOPICS</h3>
+						<a href="" class="c-anim-up">一覧はこちら</a>
 					</div>
 					<div class="pc">
 						<!-- Slider main container -->
-						<div class="swiper news_slider">
+						<div class="swiper news_slider c-anim-up">
 							<!-- Additional required wrapper -->
 							<div class="swiper-wrapper">
 								<!-- Slides -->
@@ -127,7 +133,7 @@
 					</div>
 					<div class="sp">
 						<div class="row">
-							<div class="col">
+							<div class="col c-anim-up">
 								<a href="">
 									<img src="/images/top/section_3/1.png" alt="">
 									<div class="post_cont">
@@ -136,7 +142,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col">
+							<div class="col c-anim-up">
 								<a href="">
 									<img src="/images/top/section_3/2.png" alt="">
 									<div class="post_cont">
@@ -145,7 +151,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col">
+							<div class="col c-anim-up">
 								<a href="">
 									<img src="/images/top/section_3/3.png" alt="">
 									<div class="post_cont">
@@ -154,7 +160,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col">
+							<div class="col c-anim-up">
 								<a href="">
 									<img src="/images/top/section_3/4.png" alt="">
 									<div class="post_cont">
@@ -172,24 +178,36 @@
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<h3><span>SDF2021</span> 動画配信</h3>
-								<p>音の可能性を探求するイベント「サウンドデザインフェスティバル in 浜松2021」の実施報告動画です。</p>
+								<h3 class="c-anim-up"><span>SDF2021</span> 動画配信</h3>
+								<p class="c-anim-up">音の可能性を探求するイベント「サウンドデザインフェスティバル in 浜松2021」の実施報告動画です。</p>
 							</div>
-							<div class="col">
+							<div class="col c-anim-up">
 								<img src="/images/top/section_4/1.png" alt="">
 							</div>
 							<div class="col">
-								<ul>
+								<ul class="c-anim-up">
 									<li>
 										<a href="">
 											<span>SFD2021 <br class="pc">Youtube</span>
 											チャンネル
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57">
+												<defs><style>.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs>
+												<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
+													<path class="cls-2" d="M3.91,20.76S7.47,4.62,14.76,4C24.67,3.22,28,20.84,28.67,24.45c1.17,6.47,5.35,12.94,9.87,13.11a8,8,0,0,0,4.86-1.29c4.8-3.57,8-13.45,8-15.35"/></g>
+												</g>
+											</svg>
 										</a>
 									</li>
 									<li>
 										<a href="">
 											動画配信<br class="pc">
 											スケジュール
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57">
+												<defs><style>.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs>
+												<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
+													<path class="cls-2" d="M3.91,20.76S7.47,4.62,14.76,4C24.67,3.22,28,20.84,28.67,24.45c1.17,6.47,5.35,12.94,9.87,13.11a8,8,0,0,0,4.86-1.29c4.8-3.57,8-13.45,8-15.35"/></g>
+												</g>
+											</svg>
 										</a>
 									</li>
 								</ul>
@@ -267,6 +285,10 @@
 			// 	el: '.swiper-scrollbar',
 			// },
 		});
+	</script>
+
+	<script>
+		
 	</script>
 </body>
 

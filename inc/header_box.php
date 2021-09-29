@@ -19,7 +19,23 @@ $str = explode('/', $url); ?>
 		</div>
 		<div class="menu">
 			<span>
-				<img src="/images/common/menu_icon.svg" alt="">
+				<!-- <img src="/images/common/menu_icon.svg" alt=""> -->
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.19 129.26">
+					<defs>
+						<style>.cls-1{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:14.5px;}</style>
+					</defs>
+					<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
+						<path class="cls-1" d="M155.72,10c-45-3-167.42-7.91-146,12S154,51.56,143.39,63.51,38.87,65.28,38.18,77.46s81.2,22.54,80.93,30.29c-.33,9.78-56.69,14.36-60.89,14.26"/></g>
+					</g>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.19 129.26">
+					<defs>
+						<style>.cls-1-1{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:14.5px;}</style>
+					</defs>
+					<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
+						<path class="cls-1-1" d="M155.72,10c-45-3-167.42-7.91-146,12S154,51.56,143.39,63.51,38.87,65.28,38.18,77.46s81.2,22.54,80.93,30.29c-.33,9.78-56.69,14.36-60.89,14.26"/></g>
+					</g>
+				</svg>
 			</span>
 		</div>
 	</div>
@@ -80,4 +96,10 @@ $str = explode('/', $url); ?>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="btn_reserve">
+	<a href="#">
+		<img src="/images/common/link_to_img.png" alt="">
+	</a>
 </div>
