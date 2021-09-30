@@ -39,13 +39,13 @@ $font-color: #000;
 }
 
 @mixin Ryo_Gothic($weight: 500) {
-  font-family: "Ryo Gothic PlusN", sans-serif;
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
   font-weight: $weight;
   font-style: normal;
 }
 
 @mixin Futura_PT($weight: 500) {
-  font-family: "Futura PT", sans-serif;
+  font-family: "Futura PT", FuturaDemi, futura-pt, sans-serif;
   font-weight: $weight;
   font-style: normal;
 }
@@ -66,4 +66,10 @@ $font-color: #000;
   border-top: 1px solid $color;
   border-right: 1px solid $color;
   transform: rotate(45deg);
+}
+
+
+@font-face {
+  font-family: FuturaDemi;
+  src: url(../font/FuturaPTDemi.otf);
 }

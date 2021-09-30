@@ -57,15 +57,10 @@
 									つなげるモノは想像次第、つなげるカタチも創造次第。<br>
 									様々なコミュニケーションのカタチに出逢う<br>
 									サウンドデザインフェスティバル in 浜松2021。</p>
-								<a href="" class="c-anim-up">SDFとは？ 
-									<!-- <img src="/images/top/section_2/btn_after-b.svg" alt="">
-									<img src="/images/top/section_2/btn_after-w.svg" alt=""> -->
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57">
-										<defs><style>.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs>
-										<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
-											<path class="cls-2" d="M3.91,20.76S7.47,4.62,14.76,4C24.67,3.22,28,20.84,28.67,24.45c1.17,6.47,5.35,12.94,9.87,13.11a8,8,0,0,0,4.86-1.29c4.8-3.57,8-13.45,8-15.35"/></g>
-										</g>
-									</svg>
+								<a href="" class="c-anim-up">SDFとは？
+									<div class="svg_cont">
+										<svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg>
+									</div>
 								</a>
 							</div>
 						</div>
@@ -190,24 +185,18 @@
 										<a href="">
 											<span>SFD2021 <br class="pc">Youtube</span>
 											チャンネル
-											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57">
-												<defs><style>.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs>
-												<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
-													<path class="cls-2" d="M3.91,20.76S7.47,4.62,14.76,4C24.67,3.22,28,20.84,28.67,24.45c1.17,6.47,5.35,12.94,9.87,13.11a8,8,0,0,0,4.86-1.29c4.8-3.57,8-13.45,8-15.35"/></g>
-												</g>
-											</svg>
+											<div class="svg_cont">
+												<svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg>
+											</div>
 										</a>
 									</li>
 									<li>
 										<a href="">
 											動画配信<br class="pc">
 											スケジュール
-											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57">
-												<defs><style>.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs>
-												<g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1">
-													<path class="cls-2" d="M3.91,20.76S7.47,4.62,14.76,4C24.67,3.22,28,20.84,28.67,24.45c1.17,6.47,5.35,12.94,9.87,13.11a8,8,0,0,0,4.86-1.29c4.8-3.57,8-13.45,8-15.35"/></g>
-												</g>
-											</svg>
+											<div class="svg_cont">
+												<svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg>
+											</div>
 										</a>
 									</li>
 								</ul>
@@ -232,28 +221,25 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
 
 	<script>
-
-		$(window).on('load resize', function () {
+		$(window).on('load resize', function() {
 			var w = $(window).width();
 			if (w < 900) {
 				new CircleType(document.getElementById('curve_txt'))
-  				.radius(170);
-			}else{
+					.radius(170);
+			} else {
 				new CircleType(document.getElementById('curve_txt'))
-  				.radius(200);
+					.radius(200);
 				$('.post_cont').matchHeight();
 			}
 		});
-
 	</script>
 
 	<script>
-
 		const swiper = new Swiper('.news_slider', {
 			// Optional parameters
 			direction: 'horizontal',
 			loop: true,
-			
+
 			// If we need pagination
 			// Responsive breakpoints
 			breakpoints: {
@@ -288,8 +274,42 @@
 	</script>
 
 	<script>
-		
+		const btn_layer = document.querySelectorAll(".btn_layer");
+
+		function updateviewbox(elem, count) {
+			elem.setAttribute("viewBox", count + " 0 55.4 41.57");
+		}
+
+		let count = 0;
+		let time = setInterval(function() {
+			count++;
+			if (count === 48 ) {
+				count = 0;
+			}
+			for (let i = 0; i < btn_layer.length; i++) {
+				updateviewbox(btn_layer[i], count);
+			}
+		}, 30);
 	</script>
+
+	<!-- <script>
+		const layer2 = document.querySelector(".Layer_2");
+
+		function updatepath(elem, count) {
+			// elem.setAttribute("viewBox", "0 " + count +  " 172.19 131.26");
+		}
+
+		let count1 = 0;
+		let time1 = setInterval(function() {
+			count1++;
+			console.log(count1);
+			if (count1 === 96 ) {
+				count1 = 0;
+			}
+			updatepath(layer2, count1);
+		}, 30);
+	</script> -->
+
 </body>
 
 </html>

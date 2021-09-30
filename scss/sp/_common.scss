@@ -57,6 +57,10 @@ header {
   z-index: 999;
   background: transparent;
   width: 100%;
+  &.scroll{
+    background-color: #fff;
+    padding-bottom: 10px;
+  }
   &.active{
     .header_inner{
       &.row{
@@ -95,16 +99,13 @@ header {
       justify-content: space-between;
       .right{
         float: unset;
-        @media only screen and (max-width: 360px) {
+        width: 85px;
+        @media only screen and (max-width: 375px) {
           width: 15%;
         }
         .logo{
           a{
             img{
-              width: 85px;
-              @media only screen and (max-width: 360px) {
-                width: 100%;
-              }
             }
           }
         }
@@ -115,6 +116,9 @@ header {
         justify-content: flex-end;
         .txt_cont{
           margin-right: 20px;
+          @media only screen and (max-width: 375px) {
+            margin-right: 10px;
+          }
           p{
             @include Futura_PT(600);
             color: #000;
@@ -130,6 +134,9 @@ header {
                   padding: 0 20px 0 2px;
                   position: relative;
                   top: -2px;
+                  @media only screen and (max-width: 375px) {
+                    padding: 0 5px 0 2px;
+                  }
                 }
               }
             }
@@ -143,6 +150,7 @@ header {
           &:hover{
             span{
               svg{
+                animation: unset;
                 .cls-1{
                   animation: unset;
                   stroke-dashoffset: 0;
@@ -160,58 +168,77 @@ header {
           span{
             display: block;
             position: relative;
-            img{
-              width: 37px;
-            }
+            width: 37px;
+            height: 37px;
+            overflow: hidden;
             svg{
-              width: 37px;
-              .cls-1{
-                stroke-dashoffset: 560;
-                stroke-dasharray: 560;
-                animation: fill 3s infinite;
-              }
-              .cls-1-1{
-                stroke-dashoffset: 560;
-                stroke-dasharray: 560;
-                animation: fill2 3s infinite;
-              }
-              &:nth-of-type(2){
-                transform: scaleY(-1) scaleX(-1);
-                position: absolute;
-                top: 0;
-                left: 0;
-              }
+              animation: goup 10s infinite linear;
+              animation-timing-function: linear;
             }
-            @keyframes fill {
+            @keyframes goup {
               0% {
-                stroke-dashoffset: 560;
-                stroke-dasharray: 560;
-              }
-            
-              50% {
-                stroke-dashoffset: -560;
-                stroke-dasharray: 560
+                transform: translateY(0);
               }
               100% {
-                stroke-dashoffset: -560;
-                stroke-dasharray: 560
+                transform: translateY(-145px);
               }
             }
-            @keyframes fill2 {
-              0% {
-                stroke-dashoffset: -560;
-                stroke-dasharray: 560;
-              }
-              50% {
-                stroke-dashoffset: -560;
-                stroke-dasharray: 560;
-              }
+            // img{
+            //   width: 37px;
+            // }
+            // svg{
+            //   width: 37px;
+            //   .cls-1{
+            //     stroke-dashoffset: 560;
+            //     stroke-dasharray: 560;
+            //     animation: fill 3s infinite;
+            //     -webkit-backface-visibility: hidden;
+            //     -webkit-perspective: 1000;
+            //   }
+            //   .cls-1-1{
+            //     stroke-dashoffset: 560;
+            //     stroke-dasharray: 560;
+            //     animation: fill2 3s infinite;
+            //     -webkit-backface-visibility: hidden;
+            //     -webkit-perspective: 1000;
+            //   }
+            //   &:nth-of-type(2){
+            //     transform: scaleY(-1) scaleX(-1);
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //   }
+            // }
+            // @keyframes fill {
+            //   0% {
+            //     stroke-dashoffset: 560;
+            //     stroke-dasharray: 560;
+            //   }
             
-              100% {
-                stroke-dashoffset: 560;
-                stroke-dasharray: 560
-              }
-            }
+            //   50% {
+            //     stroke-dashoffset: -560;
+            //     stroke-dasharray: 560
+            //   }
+            //   100% {
+            //     stroke-dashoffset: -560;
+            //     stroke-dasharray: 560
+            //   }
+            // }
+            // @keyframes fill2 {
+            //   0% {
+            //     stroke-dashoffset: -560;
+            //     stroke-dasharray: 560;
+            //   }
+            //   50% {
+            //     stroke-dashoffset: -560;
+            //     stroke-dasharray: 560;
+            //   }
+            
+            //   100% {
+            //     stroke-dashoffset: 560;
+            //     stroke-dasharray: 560
+            //   }
+            // }
           }
         }
       }

@@ -150,43 +150,50 @@ header {
           &:hover{
             span{
               svg{
-                .cls-1{
-                  animation: unset;
-                  stroke-dashoffset: 0;
-                  stroke-dasharray: 560;
-                }
-                .cls-1-1{
-                  animation: unset;
-                  opacity: 0;
-                  stroke-dashoffset: 0;
-                  stroke-dasharray: 560;
-                }
+                animation: unset;
               }
             }
           }
           span{
             display: block;
             position: relative;
+            width: 59px;
+            height: 55px;
+            overflow: hidden;
             img{
               width: 59px;
             }
             svg{
-              width: 59px;
-              .cls-1{
-                stroke-dashoffset: 560;
-                stroke-dasharray: 560;
-                animation: fill 3s infinite;
+              animation: goup 10s infinite linear;
+              animation-timing-function: linear;
+              // transform: rotate(-90deg);
+              // .cls-1{
+              //   // stroke-dashoffset: 560;
+              //   // stroke-dasharray: 560;
+              //   // animation: fill 3s infinite;
+              //   -webkit-backface-visibility: hidden;
+              //   -webkit-perspective: 1000;
+              // }
+              // .cls-1-1{
+              //   stroke-dashoffset: 360;
+              //   stroke-dasharray: 360;
+              //   // animation: fill2 3s infinite;
+              //   -webkit-backface-visibility: hidden;
+              //   -webkit-perspective: 1000;
+              // }
+              // &:nth-of-type(2){
+              //   transform: scaleY(-1) scaleX(-1);
+              //   position: absolute;
+              //   top: 0;
+              //   left: 0;
+              // }
+            }
+            @keyframes goup {
+              0% {
+                transform: translateY(0);
               }
-              .cls-1-1{
-                stroke-dashoffset: 560;
-                stroke-dasharray: 560;
-                animation: fill2 3s infinite;
-              }
-              &:nth-of-type(2){
-                transform: scaleY(-1) scaleX(-1);
-                position: absolute;
-                top: 0;
-                left: 0;
+              100% {
+                transform: translateY(-230px);
               }
             }
             @keyframes fill {
