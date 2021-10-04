@@ -47,8 +47,10 @@ $('.menu').click(function () {
   $('header').toggleClass('active');
   if($('header').hasClass('active')){
     $("header .logo a img").attr("src","/images/common/header_logo_w.svg").fadeIn(5000);
+    $('.svg_menu_btn').attr("stroke", "#fff");
   }else{
     $("header .logo a img").attr("src","/images/common/header_logo.svg").fadeIn(5000);
+    $('.svg_menu_btn').attr("stroke", "#000");
   }
 });
 

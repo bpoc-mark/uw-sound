@@ -59,7 +59,10 @@
 									サウンドデザインフェスティバル in 浜松2021。</p>
 								<a href="" class="c-anim-up">SDFとは？
 									<div class="svg_cont">
-										<svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+											<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
+										</svg>
+										<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
 									</div>
 								</a>
 							</div>
@@ -186,7 +189,10 @@
 											<span>SFD2021 <br class="pc">Youtube</span>
 											チャンネル
 											<div class="svg_cont">
-												<svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+													<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
+												</svg>
+												<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
 											</div>
 										</a>
 									</li>
@@ -195,7 +201,10 @@
 											動画配信<br class="pc">
 											スケジュール
 											<div class="svg_cont">
-												<svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+													<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
+												</svg>
+												<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
 											</div>
 										</a>
 									</li>
@@ -273,7 +282,7 @@
 		});
 	</script>
 
-	<script>
+	<!-- <script>
 		const btn_layer = document.querySelectorAll(".btn_layer");
 
 		function updateviewbox(elem, count) {
@@ -290,25 +299,139 @@
 				updateviewbox(btn_layer[i], count);
 			}
 		}, 30);
-	</script>
-
-	<!-- <script>
-		const layer2 = document.querySelector(".Layer_2");
-
-		function updatepath(elem, count) {
-			// elem.setAttribute("viewBox", "0 " + count +  " 172.19 131.26");
-		}
-
-		let count1 = 0;
-		let time1 = setInterval(function() {
-			count1++;
-			console.log(count1);
-			if (count1 === 96 ) {
-				count1 = 0;
-			}
-			updatepath(layer2, count1);
-		}, 30);
 	</script> -->
+
+	<script>
+		function menu_btn(){
+			const POINTS_COUNT = 8;
+			const MAX_Y = 200
+			const WIDTH = 600
+			const HEIGHT = 400
+			const EASE = 0.4
+			const SPEED = 0.002
+			const WAVE_SCALE = (1 / Math.PI) * 1.5
+
+			/**
+			 * 0〜1と-1〜0の乱数で交互に埋めた値配列を生成します
+			 */
+			const generateValues = () => {
+				// return new Array(POINTS_COUNT + 1)
+				// 	.fill(0)
+				// 	.map((_, index) => Math.random() * ((index % 2) ? 1 : -1))
+
+				return new Array(POINTS_COUNT).fill(0).map((_, index) => {
+					const x = index / POINTS_COUNT // x座標(0-1)
+					const yBase = index % 2 === 0 ? 1 : -1 // y座標(-1と1を交互に設定)
+					const y = Math.sin(x / WAVE_SCALE - this.time * SPEED) * yBase // sin波を掛ける
+					return y
+				})
+			}
+
+			const valuesToPathStr = (values) => {
+				// if (!values.length) { console.log('no lenth'); return 'M0,0' }
+				// const points = values.map((y, x) => ({
+				// 	x: x / (POINTS_COUNT - 1) * WIDTH,
+				// 	y: y * MAX_Y + HEIGHT / 2
+				// }))
+				// const p0 = points.shift()
+				// const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+				// // 全ての座標に制御点を追加しながら曲線（三次ベジェ曲線）を描画するための文字列を生成
+				// return `M${p0.x},${p0.y} S` +
+				// 	points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+
+				if (!values.length) { return 'M0,0' }
+				const points = values.map((y, x) => ({ x: x / (POINTS_COUNT - 1) * WIDTH, y: y * MAX_Y + HEIGHT / 2 }))
+				const firstPoint = points.shift()
+				const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+				return `M${firstPoint.x},${firstPoint.y} S` +
+					points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+			}
+			// let execount = 0;
+			// let exe = setInterval(function() {
+			// 	let values = generateValues();
+			// 	let pathStr = valuesToPathStr(values);
+			// 	document.querySelector('.svgtest').setAttribute("d", pathStr);
+			// }, 2000);
+
+			const startTime = Date.now()
+			const update = () => {
+			this.time = Date.now() - startTime
+				requestAnimationFrame(update);
+				let values = generateValues();
+				let pathStr = valuesToPathStr(values);
+				document.querySelector('.svg_menu_btn').setAttribute("d", pathStr);
+			}
+			update()
+		}
+		menu_btn();
+
+		function index_btn(){
+			const POINTS_COUNT = 4;
+			const MAX_Y = 200
+			const WIDTH = 600
+			const HEIGHT = 400
+			const EASE = 0.4
+			const SPEED = 0.002
+			const WAVE_SCALE = (1 / Math.PI) * 2.5
+
+			/**
+			 * 0〜1と-1〜0の乱数で交互に埋めた値配列を生成します
+			 */
+			const generateValues = () => {
+				// return new Array(POINTS_COUNT + 1)
+				// 	.fill(0)
+				// 	.map((_, index) => Math.random() * ((index % 2) ? 1 : -1))
+
+				return new Array(POINTS_COUNT).fill(0).map((_, index) => {
+					const x = index / POINTS_COUNT // x座標(0-1)
+					const yBase = index % 2 === 0 ? 1 : -1 // y座標(-1と1を交互に設定)
+					const y = Math.sin(x / WAVE_SCALE - this.time * SPEED) * yBase // sin波を掛ける
+					return y
+				})
+			}
+
+			const valuesToPathStr = (values) => {
+				// if (!values.length) { console.log('no lenth'); return 'M0,0' }
+				// const points = values.map((y, x) => ({
+				// 	x: x / (POINTS_COUNT - 1) * WIDTH,
+				// 	y: y * MAX_Y + HEIGHT / 2
+				// }))
+				// const p0 = points.shift()
+				// const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+				// // 全ての座標に制御点を追加しながら曲線（三次ベジェ曲線）を描画するための文字列を生成
+				// return `M${p0.x},${p0.y} S` +
+				// 	points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+
+				if (!values.length) { return 'M0,0' }
+				const points = values.map((y, x) => ({ x: x / (POINTS_COUNT - 1) * WIDTH, y: y * MAX_Y + HEIGHT / 2 }))
+				const firstPoint = points.shift()
+				const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+				return `M${firstPoint.x},${firstPoint.y} S` +
+					points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+			}
+			// let execount = 0;
+			// let exe = setInterval(function() {
+			// 	let values = generateValues();
+			// 	let pathStr = valuesToPathStr(values);
+			// 	document.querySelector('.svgtest').setAttribute("d", pathStr);
+			// }, 2000);
+
+			const startTime = Date.now()
+			const update = () => {
+			this.time = Date.now() - startTime
+				requestAnimationFrame(update);
+				let values = generateValues();
+				let pathStr = valuesToPathStr(values);
+				var btn = document.querySelectorAll('.svg_btn')
+				for (let i = 0; i < btn.length; i++) {
+					btn[i].setAttribute("d", pathStr);
+				}
+			}
+			update()
+		}
+		index_btn();
+
+	</script>
 
 </body>
 

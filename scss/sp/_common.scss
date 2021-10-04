@@ -172,17 +172,18 @@ header {
             height: 37px;
             overflow: hidden;
             svg{
-              animation: goup 10s infinite linear;
-              animation-timing-function: linear;
+              transform: rotate(90deg);
+              // animation: goup 10s infinite linear;
+              // animation-timing-function: linear;
             }
-            @keyframes goup {
-              0% {
-                transform: translateY(0);
-              }
-              100% {
-                transform: translateY(-145px);
-              }
-            }
+            // @keyframes goup {
+            //   0% {
+            //     transform: translateY(0);
+            //   }
+            //   100% {
+            //     transform: translateY(-145px);
+            //   }
+            // }
             // img{
             //   width: 37px;
             // }

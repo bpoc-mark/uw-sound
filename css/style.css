@@ -187,47 +187,7 @@ header .header_inner.row .left .menu span img {
 }
 
 header .header_inner.row .left .menu span svg {
-  animation: goup 10s infinite linear;
-  animation-timing-function: linear;
-}
-
-@keyframes goup {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-230px);
-  }
-}
-
-@keyframes fill {
-  0% {
-    stroke-dashoffset: 560;
-    stroke-dasharray: 560;
-  }
-  50% {
-    stroke-dashoffset: -560;
-    stroke-dasharray: 560;
-  }
-  100% {
-    stroke-dashoffset: -560;
-    stroke-dasharray: 560;
-  }
-}
-
-@keyframes fill2 {
-  0% {
-    stroke-dashoffset: -560;
-    stroke-dasharray: 560;
-  }
-  50% {
-    stroke-dashoffset: -560;
-    stroke-dasharray: 560;
-  }
-  100% {
-    stroke-dashoffset: 560;
-    stroke-dasharray: 560;
-  }
+  transform: rotate(90deg);
 }
 
 header .big_menu {

@@ -208,17 +208,7 @@ header .header_inner.row .left .menu span {
 }
 
 header .header_inner.row .left .menu span svg {
-  animation: goup 10s infinite linear;
-  animation-timing-function: linear;
-}
-
-@keyframes goup {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-145px);
-  }
+  transform: rotate(90deg);
 }
 
 header .big_menu {
