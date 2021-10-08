@@ -1157,17 +1157,6 @@ img[src$=".png"], img[src$=".jpg"] {
   position: relative;
 }
 
-#Top main .sect_1 .wrapper::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(2px);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 #Top main .sect_1 .wrapper img {
   width: 100%;
 }

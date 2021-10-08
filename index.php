@@ -31,7 +31,12 @@
 		<main>
 			<section class="sect_1">
 				<div class="wrapper">
-					<img src="/images/top/section_1/main.png" alt="">
+					<picture >
+					<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+						<source srcset="/images/top/section_1/sp/main.png" media="(max-width: 899px)" type="image/webp">
+						<source srcset="/images/top/section_1/main.png" media="(min-width: 900px)">
+						<img src="/images/top/section_1/sp/main.png" alt="" class="c-anim-up">
+					</picture>
 				</div>
 			</section>
 			<section class="sect_2">
@@ -59,6 +64,10 @@
 									サウンドデザインフェスティバル in 浜松2021。</p>
 								<a href="" class="c-anim-up">SDFとは？
 									<div class="svg_cont">
+										<!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648.06 392.58">
+											<defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:50px;}</style></defs>
+											<path class="cls-1" d="M616.23,2379.81H660s52.53,4.44,78.64-80.17c27.92-90.46,121.28-152.93,178.72,3.32,62,168.54,85.45,248.59,147.41,247.09s81.36-71.49,100-111.51c20.86-44.8,29.87-57.43,99.57-57.43" transform="translate(-616.23 -2182.49)"/>
+										</svg> -->
 										<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
 											<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
 										</svg>
@@ -282,25 +291,6 @@
 		});
 	</script>
 
-	<!-- <script>
-		const btn_layer = document.querySelectorAll(".btn_layer");
-
-		function updateviewbox(elem, count) {
-			elem.setAttribute("viewBox", count + " 0 55.4 41.57");
-		}
-
-		let count = 0;
-		let time = setInterval(function() {
-			count++;
-			if (count === 48 ) {
-				count = 0;
-			}
-			for (let i = 0; i < btn_layer.length; i++) {
-				updateviewbox(btn_layer[i], count);
-			}
-		}, 30);
-	</script> -->
-
 	<script>
 		function menu_btn(){
 			const POINTS_COUNT = 8;
@@ -372,7 +362,7 @@
 			const HEIGHT = 400
 			const EASE = 0.4
 			const SPEED = 0.002
-			const WAVE_SCALE = (1 / Math.PI) * 2.5
+			const WAVE_SCALE = (1 / Math.PI) * 50
 
 			/**
 			 * 0〜1と-1〜0の乱数で交互に埋めた値配列を生成します
@@ -432,6 +422,47 @@
 		index_btn();
 
 	</script>
+
+	<!-- <script>
+		let count = 0;
+		const SPEED = 0.002
+		const btn_layer = document.querySelector(".cls-1");
+		const startTime = Date.now()
+		const update = () => {
+			this.time = Date.now() - startTime
+			btn_layer.setAttribute("d", "M 616.23 2379.81 H 660 s 52.53 "+ Math.sin(4.44 - 1 - this.time) +" 78.64 0 c 27.92 0 121.28 0 178.72 0 c 62 0 76.64 0 131.64 0 s 81.36 0 133 0 c 20.86 0 29 0 83 0");
+			// requestAnimationFrame(update)
+		}
+		// update()
+
+		let time = setInterval(function() {
+			count++;
+			
+			if(count % 2 === 0){
+				update();
+			}else{
+				btn_layer.setAttribute("d", "M616.23,2379.81H660s52.53,4.44,78.64-80.17c27.92-90.46,121.28-152.93,178.72,3.32,62,168.54,85.45,248.59,147.41,247.09s81.36-71.49,100-111.51c20.86-44.8,29.87-57.43,99.57-57.43");
+			}
+			
+		}, 2000);
+
+		var myFunc01 = function() {
+			var i = 0.0;
+			while (i < 4.4) {
+				(function(i) {
+				setTimeout(function() {
+					// document.getElementById('d01').innerHTML += 100 - i + "<br>";
+					console.log(i);
+				}, 75 * i)
+				})(i += 0.1)
+			}
+		};
+
+		setTimeout( function(){ 
+			myFunc01();
+		}  , 3000 );
+		
+	</script> -->
 
 </body>
 
