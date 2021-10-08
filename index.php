@@ -291,7 +291,7 @@
 		});
 	</script>
 
-	<script>
+	<!-- <script>
 		function menu_btn(){
 			const POINTS_COUNT = 8;
 			const MAX_Y = 200
@@ -421,7 +421,7 @@
 		}
 		index_btn();
 
-	</script>
+	</script> -->
 
 	<!-- <script>
 		let count = 0;

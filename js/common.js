@@ -55,6 +55,135 @@ $('.menu').click(function () {
 });
 
 
+function menu_btn(){
+  const POINTS_COUNT = 8;
+  const MAX_Y = 200
+  const WIDTH = 600
+  const HEIGHT = 400
+  const EASE = 0.4
+  const SPEED = 0.002
+  const WAVE_SCALE = (1 / Math.PI) * 1.5
+
+  /**
+   * 0〜1と-1〜0の乱数で交互に埋めた値配列を生成します
+   */
+  const generateValues = () => {
+    // return new Array(POINTS_COUNT + 1)
+    // 	.fill(0)
+    // 	.map((_, index) => Math.random() * ((index % 2) ? 1 : -1))
+
+    return new Array(POINTS_COUNT).fill(0).map((_, index) => {
+      const x = index / POINTS_COUNT // x座標(0-1)
+      const yBase = index % 2 === 0 ? 1 : -1 // y座標(-1と1を交互に設定)
+      const y = Math.sin(x / WAVE_SCALE - this.time * SPEED) * yBase // sin波を掛ける
+      return y
+    })
+  }
+
+  const valuesToPathStr = (values) => {
+    // if (!values.length) { console.log('no lenth'); return 'M0,0' }
+    // const points = values.map((y, x) => ({
+    // 	x: x / (POINTS_COUNT - 1) * WIDTH,
+    // 	y: y * MAX_Y + HEIGHT / 2
+    // }))
+    // const p0 = points.shift()
+    // const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+    // // 全ての座標に制御点を追加しながら曲線（三次ベジェ曲線）を描画するための文字列を生成
+    // return `M${p0.x},${p0.y} S` +
+    // 	points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+
+    if (!values.length) { return 'M0,0' }
+    const points = values.map((y, x) => ({ x: x / (POINTS_COUNT - 1) * WIDTH, y: y * MAX_Y + HEIGHT / 2 }))
+    const firstPoint = points.shift()
+    const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+    return `M${firstPoint.x},${firstPoint.y} S` +
+      points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+  }
+  // let execount = 0;
+  // let exe = setInterval(function() {
+  // 	let values = generateValues();
+  // 	let pathStr = valuesToPathStr(values);
+  // 	document.querySelector('.svgtest').setAttribute("d", pathStr);
+  // }, 2000);
+
+  const startTime = Date.now()
+  const update = () => {
+  this.time = Date.now() - startTime
+    requestAnimationFrame(update);
+    let values = generateValues();
+    let pathStr = valuesToPathStr(values);
+    document.querySelector('.svg_menu_btn').setAttribute("d", pathStr);
+  }
+  update()
+}
+menu_btn();
+
+function index_btn(){
+  const POINTS_COUNT = 4;
+  const MAX_Y = 200
+  const WIDTH = 600
+  const HEIGHT = 400
+  const EASE = 0.4
+  const SPEED = 0.002
+  const WAVE_SCALE = (1 / Math.PI) * 50
+
+  /**
+   * 0〜1と-1〜0の乱数で交互に埋めた値配列を生成します
+   */
+  const generateValues = () => {
+    // return new Array(POINTS_COUNT + 1)
+    // 	.fill(0)
+    // 	.map((_, index) => Math.random() * ((index % 2) ? 1 : -1))
+
+    return new Array(POINTS_COUNT).fill(0).map((_, index) => {
+      const x = index / POINTS_COUNT // x座標(0-1)
+      const yBase = index % 2 === 0 ? 1 : -1 // y座標(-1と1を交互に設定)
+      const y = Math.sin(x / WAVE_SCALE - this.time * SPEED) * yBase // sin波を掛ける
+      return y
+    })
+  }
+
+  const valuesToPathStr = (values) => {
+    // if (!values.length) { console.log('no lenth'); return 'M0,0' }
+    // const points = values.map((y, x) => ({
+    // 	x: x / (POINTS_COUNT - 1) * WIDTH,
+    // 	y: y * MAX_Y + HEIGHT / 2
+    // }))
+    // const p0 = points.shift()
+    // const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+    // // 全ての座標に制御点を追加しながら曲線（三次ベジェ曲線）を描画するための文字列を生成
+    // return `M${p0.x},${p0.y} S` +
+    // 	points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+
+    if (!values.length) { return 'M0,0' }
+    const points = values.map((y, x) => ({ x: x / (POINTS_COUNT - 1) * WIDTH, y: y * MAX_Y + HEIGHT / 2 }))
+    const firstPoint = points.shift()
+    const controlX = WIDTH / (POINTS_COUNT - 1) * EASE
+    return `M${firstPoint.x},${firstPoint.y} S` +
+      points.map(p => `${p.x - controlX},${p.y} ${p.x},${p.y}`).join(' ')
+  }
+  // let execount = 0;
+  // let exe = setInterval(function() {
+  // 	let values = generateValues();
+  // 	let pathStr = valuesToPathStr(values);
+  // 	document.querySelector('.svgtest').setAttribute("d", pathStr);
+  // }, 2000);
+
+  const startTime = Date.now()
+  const update = () => {
+  this.time = Date.now() - startTime
+    requestAnimationFrame(update);
+    let values = generateValues();
+    let pathStr = valuesToPathStr(values);
+    var btn = document.querySelectorAll('.svg_btn')
+    for (let i = 0; i < btn.length; i++) {
+      btn[i].setAttribute("d", pathStr);
+    }
+  }
+  update()
+}
+index_btn();
+
 // シンプルローディング
 const spinner = document.querySelector('#loading');
 window.addEventListener('load', function() {
