@@ -1706,6 +1706,94 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Topics Detail
+==================================*/
+#Topics_detial main .sect_1 .wrapper {
+  padding-bottom: 140px;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .post_title {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  color: #0d0d0d;
+  line-height: 30.9px;
+  letter-spacing: .1em;
+  border-bottom: 1px solid #0d0d0d;
+  padding: 25px 0;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .post_date {
+  font-family: "Futura PT", FuturaDemi, futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #0d0d0d;
+  text-align: right;
+  margin: 15px 0 50px;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .post_content {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+  line-height: 40px;
+  margin: 0 0 35px;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .image_cont {
+  width: 83%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .image_cont li {
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .image_cont li:nth-child(2n+2) {
+  margin-left: 1%;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .image_cont li img {
+  width: 100%;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .btn_cont a {
+  display: block;
+  margin: 90px auto 0;
+  width: 260px;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  border: 1px solid #cbcbcb;
+  position: relative;
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .btn_cont a .svg_cont {
+  width: 17px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  overflow: hidden;
+}
+
+#Topics_detial main .sect_1 .wrapper .container .btn_cont a .svg_cont svg {
+  width: 100%;
+  height: 100%;
+  transform: translateX(0);
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
