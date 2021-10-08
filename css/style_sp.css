@@ -1852,6 +1852,122 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Workshop list
+==================================*/
+#Workshop_list main .sect_1 .wrapper {
+  padding-bottom: 80px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont {
+  margin-bottom: 50px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col {
+  width: 100%;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col:not(:last-child) {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #191919;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(1) {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(1) img {
+  width: 100%;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(2) {
+  width: 100%;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(2) .post_cat {
+  margin: 0 0 5px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(2) .post_cat span {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: #fff;
+  background-color: #191919;
+  padding: 3px 6px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(2) .post_sub_head {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #0d0d0d;
+  line-height: 32px;
+  margin: 0 0 5px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(2) .post_title {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #0d0d0d;
+  line-height: 32px;
+  margin: 0 0 15px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_post_row .item:nth-of-type(2) .content p {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+  line-height: 28.5px;
+  text-indent: -108px;
+  margin-left: 108px;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_cont a {
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  padding: 20px 20px;
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+  position: relative;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_cont a .svg_cont {
+  width: 17px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  overflow: hidden;
+}
+
+#Workshop_list main .sect_1 .wrapper .container .topics_cont.row .col .btn_cont a .svg_cont svg {
+  width: 100%;
+  height: 100%;
+  transform: translateX(0);
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
