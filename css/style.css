@@ -2402,6 +2402,91 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Source Work
+==================================*/
+#Source_work main .sect_1 .wrapper {
+  padding-bottom: 200px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row {
+  align-items: flex-start;
+}
+
+#Source_work main .sect_1 .wrapper .container .row:not(:last-child) {
+  border-bottom: 1px solid #191919;
+  padding-bottom: 100px;
+  margin-bottom: 80px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child {
+  width: 40%;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper-pagination {
+  bottom: -30px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #191919;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper-button-next {
+  right: -40px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper-button-next::after {
+  color: #707070;
+  font-size: 40px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper-button-prev {
+  left: -40px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:first-child .swiper-button-prev::after {
+  color: #707070;
+  font-size: 40px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:last-child {
+  width: 60%;
+  padding-left: 100px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:last-child h4 {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #0d0d0d;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:last-child h3 {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  color: #0d0d0d;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+#Source_work main .sect_1 .wrapper .container .row .col:last-child p {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+  line-height: 32px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {

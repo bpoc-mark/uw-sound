@@ -1,0 +1,81 @@
+/*==================================
+  Source Work
+==================================*/
+#Source_work main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 85px;
+      .container{
+        .row{
+          &:not(:last-child){
+            border-bottom: 1px solid #191919;
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+          }
+          .col{
+            &:first-child{
+              width: 100%;
+              padding: 0 10px;
+              margin-bottom: 50px;
+              .swiper{
+                .swiper-wrapper{
+                  .swiper-slide{
+                    img{
+                      width: 100%;
+                      // height: 400px;
+                      // object-fit: cover;
+                    }
+                  }
+                }
+              }
+              .swiper-pagination{
+                bottom: -30px;
+                .swiper-pagination-bullet{
+                  &.swiper-pagination-bullet-active{
+                    background-color: #191919;
+                  }
+                }
+              }
+              .swiper-button-next{
+                right: -15px;
+                &::after{
+                  color: #707070;
+                  font-size: 25px;
+                }
+              }
+              .swiper-button-prev{
+                left: -15px;
+                &::after{
+                  color: #707070;
+                  font-size: 25px;
+                }
+              }
+            }
+            &:last-child{
+              width: 100%;
+              h4{
+                @include Ryo_Gothic(700);
+                font-size: 15px;
+                color: #0d0d0d;
+                line-height: 32px;
+              }
+              h3{
+                @include Ryo_Gothic(700);
+                font-size: 20px;
+                color: #0d0d0d;
+                line-height: 32px;
+                margin-bottom: 10px;
+              }
+              p{
+                @include Ryo_Gothic(500);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
