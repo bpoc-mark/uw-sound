@@ -2431,6 +2431,73 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Event
+==================================*/
+#Event main .sect_1 .wrapper {
+  padding-bottom: 75px;
+}
+
+#Event main .sect_1 .wrapper .container .row:not(:last-child) {
+  border-bottom: 1px solid #191919;
+  padding-bottom: 45px;
+  margin-bottom: 50px;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:first-child {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:first-child img {
+  width: 100%;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:last-child {
+  width: 100%;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:last-child h3 {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #0d0d0d;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:last-child .event_info {
+  margin-bottom: 15px;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:last-child .event_info p {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+  line-height: 28.5px;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:last-child p {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+  line-height: 32px;
+  text-align: justify;
+}
+
+#Event main .sect_1 .wrapper .container .row .col:last-child p a {
+  font-family: "Ryo Gothic PlusN", ryo-gothic-plusn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d0d0d;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
