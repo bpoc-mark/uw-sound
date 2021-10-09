@@ -42,13 +42,13 @@
 				<nav>
 					<ul>
 						<li><a href="/"><span>TOP</span></a></li>
-						<li><a href="/"><span>SDF</span>とは？</a></li>
-						<li><a href="/">トピックス</a></li>
-						<li><a href="/">出展作品</a></li>
-						<li><a href="/">ワークショップ</a></li>
+						<li><a href="/sdf/"><span>SDF</span>とは？</a></li>
+						<li><a href="/topics/">トピックス</a></li>
+						<li><a href="/source_work/">出展作品</a></li>
+						<li><a href="/workshop_list/">ワークショップ</a></li>
 					</ul>
 					<ul>
-						<li><a href="/">ステージイベント</a></li>
+						<li><a href="/event/">ステージイベント</a></li>
 						<li><a href="/">サテライト会場</a></li>
 						<li><a href="/">動画配信スケジュール</a></li>
 						<li><a href="/"><span>Global Sequencer</span></a></li>

@@ -34,10 +34,10 @@
           <div class="container">
             <ul class="breadcrumbs pc">
               <li>
-                <a href="">TOP</a>
+                <a href="/">TOP</a>
               </li>
               <li>
-                <a href="">トピックス</a>
+                <a href="/topics/">トピックス</a>
               </li>
               <li>
                 <a href="">ただいま会場設営中！！開催までもうすぐです</a>
@@ -53,25 +53,25 @@
       <section class="sect_1">
         <div class="wrapper">
           <div class="container">
-            <h3 class="post_title">ただいま会場設営中！！開催までもうすぐです</h3>
-            <div class="post_date">2017.12.07</div>
-            <p class="post_content">
+            <h3 class="post_title c-anim-up">ただいま会場設営中！！開催までもうすぐです</h3>
+            <div class="post_date c-anim-up">2017.12.07</div>
+            <p class="post_content c-anim-up">
               今週の土曜日、日曜日の開催に向けて、会場となるアクトシティ展示イベントホールでは、設営作業の真っ最中です。<br>
               写真はブースの仕立てを設営中の風景になります。<br>
               実際は、ここに展示および体験作品が設置され、雰囲気の良いライティングで会場内を演出します☆
             </p>
             <ul class="image_cont">
-              <li>
+              <li class="c-anim-up">
                 <img src="/images/topics_details/image2.png" alt="">
               </li>
-              <li>
+              <li class="c-anim-up">
                 <img src="/images/topics_details/image3.png" alt="">
               </li>
-              <li>
+              <li class="c-anim-up">
                 <img src="/images/topics_details/image4.png" alt="">
               </li>
             </ul>
-            <div class="btn_cont">
+            <div class="btn_cont c-anim-up">
               <a href="">
                 一覧へ戻る
                 <div class="svg_cont">

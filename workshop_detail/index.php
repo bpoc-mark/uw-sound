@@ -34,10 +34,10 @@
           <div class="container">
             <ul class="breadcrumbs pc">
               <li>
-                <a href="">TOP</a>
+                <a href="/">TOP</a>
               </li>
               <li>
-                <a href="">トピックス</a>
+                <a href="/workshop_list/">トピックス</a>
               </li>
               <li>
                 <a href="">プチプチ・サラサラ・ふわふわ音あそび Vol.2</a>
@@ -53,60 +53,60 @@
       <section class="sect_1">
         <div class="wrapper">
           <div class="container">
-            <p class="post_cat"><span>プレイベント</span></p>
-            <h4 class="post_sub_head">ヤマハ株式会社</h4>
-            <h3 class="post_title">プチプチ・サラサラ・ふわふわ音あそび Vol.2</h3>
+            <p class="post_cat c-anim-up"><span>プレイベント</span></p>
+            <h4 class="post_sub_head c-anim-up">ヤマハ株式会社</h4>
+            <h3 class="post_title c-anim-up">プチプチ・サラサラ・ふわふわ音あそび Vol.2</h3>
             <div class="info_cont">
               <div class="left">
                 <div class="content">
-                  <div class="event_cont">
+                  <div class="event_cont c-anim-up">
                     <p>■ 体験時間： 12月7日（土）15:00～17:00</p>
                     <p>■ 当日受付 定員20名 無料</p>
                     <p>■ 会場： アクトシティ浜松</p>
                   </div>
-                  <p>
+                  <p class="c-anim-up">
                     普段の生活では気にもとめなかったような緩衝材を使って、小さな緩衝材が触れ合う音やその他の物に潜んでいる音を発見し創作するワークショップ。<br>
                     
                     ワークショップの前半は、参加者の皆さんそれぞれが体や身近な道具を使ってお気に入りの緩衝材音をつくります。後半は参加者全員で、ゲーム要素を含みながらみなさんのお気に入りの音を演奏しながら、互いの小さな音に耳を傾ける時間を楽しみます。
                   </p>
                 </div>
                 <ul class="img_cont sp">
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
                 </ul>
                 <div class="app_cont">
-                  <h4 class="pc">参加お申し込み</h4>
-                  <ul class="row">
+                  <h4 class="pc c-anim-up">参加お申し込み</h4>
+                  <ul class="row c-anim-up">
                     <li class="col"><p>12/11（土）</p></li>
                     <li class="col"><p>12:30〜</p></li>
                     <li class="col"><a href="">申し込む</a></li>
                   </ul>
-                  <ul class="row">
+                  <ul class="row c-anim-up">
                     <li class="col"><p></p></li>
                     <li class="col"><p>16:00〜</p></li>
                     <li class="col"><a href="">申し込む</a></li>
                   </ul>
-                  <ul class="row">
+                  <ul class="row c-anim-up">
                     <li class="col"><p>12/12（日）</p></li>
                     <li class="col"><p>10:00〜</p></li>
                     <li class="col"><a href="">申し込む</a></li>
                   </ul>
-                  <ul class="row">
+                  <ul class="row c-anim-up">
                     <li class="col"><p></p></li>
                     <li class="col"><p>12:30〜</p></li>
                     <li class="col"><a href="">申し込む</a></li>
                   </ul>
-                  <ul class="row">
+                  <ul class="row c-anim-up">
                     <li class="col"><p></p></li>
                     <li class="col"><p>16:00〜</p></li>
                     <li class="col"><a href="">申し込む</a></li>
@@ -115,22 +115,22 @@
               </div>
               <div class="right pc">
                 <ul class="img_cont">
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
-                  <li>
+                  <li class="c-anim-up">
                     <img src="/images/workshop_details/img_1.png" alt="">
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="btn_cont">
+            <div class="btn_cont c-anim-up">
               <a href="">
                 一覧へ戻る
                 <div class="svg_cont">

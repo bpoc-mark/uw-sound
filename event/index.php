@@ -50,7 +50,7 @@
       <section class="sect_1">
         <div class="wrapper">
           <div class="container">
-            <div class="row">
+            <div class="row c-anim-up">
               <div class="col">
                 <img src="/images/event/img_1.png" alt="">
               </div>
@@ -69,7 +69,7 @@
                 </p>
               </div>
             </div>
-            <div class="row">
+            <div class="row c-anim-up">
               <div class="col">
                 <img src="/images/event/img_1.png" alt="">
               </div>
@@ -88,7 +88,7 @@
                 </p>
               </div>
             </div>
-            <div class="row">
+            <div class="row c-anim-up">
               <div class="col">
                 <img src="/images/event/img_1.png" alt="">
               </div>

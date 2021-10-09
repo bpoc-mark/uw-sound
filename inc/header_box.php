@@ -49,24 +49,24 @@ $str = explode('/', $url); ?>
 				<nav>
 					<ul>
 						<li>
-							<a href="">TOP</a>
+							<a href="/">TOP</a>
 						</li>
 						<li>
-							<a href="">SDFとは？</a>
+							<a href="/sdf/">SDFとは？</a>
 						</li>
 						<li>
-							<a href="">トピックス</a>
+							<a href="/topics/">トピックス</a>
 						</li>
 						<li>
-							<a href="">出展作品</a>
+							<a href="/source_work/">出展作品</a>
 						</li>
 						<li>
-							<a href="">ワークショップ</a>
+							<a href="/workshop_list/">ワークショップ</a>
 						</li>
 					</ul>
 					<ul>
 						<li>
-							<a href="">ステージイベント</a>
+							<a href="/event/">ステージイベント</a>
 						</li>
 						<li>
 							<a href="">サテライト会場</a>

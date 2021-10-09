@@ -34,10 +34,10 @@
           <div class="container">
             <ul class="breadcrumbs pc">
               <li>
-                <a href="">TOP</a>
+                <a href="/">TOP</a>
               </li>
               <li>
-                <a href="">トピックス</a>
+                <a href="/topics/">トピックス</a>
               </li>
             </ul>
             <h3>トピックス</h3>
@@ -135,7 +135,7 @@
             </div>
 
             <!-- Wordpress -->
-            <div class="page_navigation">
+            <div class="page_navigation c-anim-up">
               <div class="wp-pagenavi">
                 <a class="previouspostslink" href="#" rel="prev">&#x25C0;</a>
                 <span class="current">1</span>
