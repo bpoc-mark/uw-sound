@@ -1,0 +1,57 @@
+/*==================================
+  Topics
+==================================*/
+#Topics main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 150px;
+      .container{
+        .topics_cont{
+          margin-bottom: 60px;
+          &.row{
+            .col{
+              width: 30%;
+              margin-bottom: 80px;
+              &:nth-child(3n+2){
+                margin-left: 5%;
+              }
+              &:nth-child(3n+3){
+                margin-left: 5%;
+              }
+              a{
+                img{
+                  width: 95%;
+                  display: block;
+                  margin-left: auto;
+                }
+                .post_cont{
+                  border-top: 1px solid #191919;
+                  border-right: 1px solid #191919;
+                  width: 95%;
+                  background-color: #fff;
+                  padding: 35px 30px 10px 0;
+                  margin-top: -30px;
+                  position: relative;
+                  z-index: 2;
+                  .post_date{
+                    @include Futura_PT(600);
+                    font-size: 14px;
+                    color: #000;
+                    margin-bottom: 10px;
+                  }
+                  .post_title{
+                    @include Ryo_Gothic(500);
+                    font-size: 16px;
+                    line-height: 28.8px;
+                    color: #000;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
