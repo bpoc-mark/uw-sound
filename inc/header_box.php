@@ -74,16 +74,16 @@ $str = explode('/', $url); ?>
 							<a href="/event/">ステージイベント</a>
 						</li>
 						<li>
-							<a href="">サテライト会場</a>
+							<a href="/satellite/">サテライト会場</a>
 						</li>
 						<li>
-							<a href="">動画配信スケジュール</a>
+							<a href="/video_schedule/">動画配信スケジュール</a>
 						</li>
 						<li>
-							<a href="">Global Sequencer</a>
+							<a href="/global/">Global Sequencer</a>
 						</li>
 						<li>
-							<a href="">アクセス</a>
+							<a href="/access/">アクセス</a>
 						</li>
 					</ul>
 				</nav>

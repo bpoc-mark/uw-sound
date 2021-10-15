@@ -51,10 +51,10 @@
 					</ul>
 					<ul>
 						<li><a href="/event/">ステージイベント</a></li>
-						<li><a href="/">サテライト会場</a></li>
-						<li><a href="/">動画配信スケジュール</a></li>
-						<li><a href="/"><span>Global Sequencer</span></a></li>
-						<li><a href="/">アクセス</a></li>
+						<li><a href="/satellite/">サテライト会場</a></li>
+						<li><a href="/video_schedule/">動画配信スケジュール</a></li>
+						<li><a href="/global/"><span>Global Sequencer</span></a></li>
+						<li><a href="/access/">アクセス</a></li>
 						<li><a href="/pdf/sdf2021_schedule.pdf" target="_blank">イベントスケジュール</a></li>
 					</ul>
 				</nav>
