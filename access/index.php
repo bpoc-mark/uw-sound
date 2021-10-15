@@ -65,7 +65,7 @@
                   アクトシティ展示イベントホール
                 </h3>
                 <p class="c-anim-up">■ 静岡県浜松市中区中央3-12-1</p>
-                <p class="c-anim-up">■ TEL：<a href="tel:053-000-0000">053-000-0000</a></p>
+                <p class="c-anim-up">■ TEL：<a href="tel:053-451-1111">053-451-1111</a></p>
                 <p class="c-anim-up">■ JR東海道本線「浜松駅」から徒歩約6分</p>
                 <div class="btn_cont c-anim-up">
                   <a href="https://www.actcity.jp/visitor/exhibition/access/" target="_blank" class="link_btn">
@@ -126,7 +126,7 @@
                 <p class="c-anim-up">■ TEL：<a href="tel:053-451-1128">053-451-1128</a> ／ FAX：<a href="tel:053-451-1129">053-451-1129</a></p>
                 <p class="c-anim-up">■ JR東海道本線「浜松駅」から徒歩約7分</p>
                 <div class="btn_cont c-anim-up">
-                  <a href="https://www.gakkihaku.jp/" target="_blank" class="link_btn">
+                  <a href="https://www.gakkihaku.jp/access/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >

@@ -33,9 +33,9 @@
 				<div class="wrapper">
 					<picture >
 					<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-						<source srcset="/images/top/section_1/sp/main.png" media="(max-width: 899px)" type="image/webp">
+						<source srcset="/images/top/section_1/sp/main.jpg" media="(max-width: 899px)" type="image/webp">
 						<source srcset="/images/top/section_1/main.jpg" media="(min-width: 900px)">
-						<img src="/images/top/section_1/sp/main.png" alt="" class="c-anim-up">
+						<img src="/images/top/section_1/sp/main.jpg" alt="" class="c-anim-up">
 					</picture>
 				</div>
 			</section>

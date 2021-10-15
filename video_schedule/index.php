@@ -79,7 +79,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/ナンセンスマシーンコンサート/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -95,7 +95,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/event/" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/ともとものガラクタ音楽会-「ゴミじゃない鳴らせ/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -103,15 +103,14 @@
                     <div class="item_row">
                       <div class="itm">
                         <h4><span>ステージイベント</span></h4>
-                        <h3>
-                        ヤマハ ディスクラビア  リモートコンサート</h3>
+                        <h3>ヤマハディスクラビアリモートコンサート</h3>
                         <p>
                           ■ 時間：14:30～15:30 <br>
                           ■ 出演：よみぃ　ほか
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/ヤマハ-ディスクラビア%e3%80%80リモートコンサート/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -127,7 +126,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/event/" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/すぎとひのきのバードコール/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -143,7 +142,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/ともとものガラクタワークショップ-「シャカシャ/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -169,7 +168,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/event/" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/空間を操り、誰でも楽しめる不思議な楽器%e3%80%80テル/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -188,7 +187,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/31/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -204,7 +203,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/event/" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/すぎとひのきのバードコール/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -220,7 +219,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/「楽器工作%e3%80%80つくろう、ならそう！」-楽器づくり/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -236,7 +235,7 @@
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="/event/" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/電子工作ワークショップ「ふれると音を奏でる鳥/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
