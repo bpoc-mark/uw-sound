@@ -55,9 +55,9 @@
                 <h3 class="c-anim-up">Yuri <br class="sp">Suzuki</h3>
                 <picture >
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-									<source srcset="/images/global/sp/img_1.png" media="(max-width: 899px)" type="image/webp">
-									<source srcset="/images/global/img_1.png" media="(min-width: 900px)">
-									<img src="/images/global/sp/img_1.png" alt="" class="c-anim-up">
+									<source srcset="/images/global/sp/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+									<source srcset="/images/global/img_1.jpg" media="(min-width: 900px)">
+									<img src="/images/global/sp/img_1.jpg" alt="" class="c-anim-up">
 								</picture>
                 <p class="c-anim-up">
                   2019年末からパンデミックが始まりました、パラダイムシフトが起こりわたしたちのコミュニケーションがかわり、実際の触れ合いがなくなりインターネットや電話を経由してのコミュニケーションがメインになりました。<br>

@@ -54,9 +54,9 @@
               <div class="col">
                 <picture >
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-									<source srcset="/images/access/sp/img_1.png" media="(max-width: 899px)" type="image/webp">
-									<source srcset="/images/access/img_1.png" media="(min-width: 900px)">
-									<img src="/images/access/sp/img_1.png" alt="" class="c-anim-up">
+									<source srcset="/images/access/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+									<source srcset="/images/access/img_1.jpg" media="(min-width: 900px)">
+									<img src="/images/access/img_1.jpg" alt="" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -65,10 +65,10 @@
                   アクトシティ展示イベントホール
                 </h3>
                 <p class="c-anim-up">■ 静岡県浜松市中区中央3-12-1</p>
-                <p class="c-anim-up">■ TEL：<a href="tel:053-000-0000">053-000-0000</a> ／ FAX：<a href="tel:053-000-0000">053-000-0000</a></p>
+                <p class="c-anim-up">■ TEL：<a href="tel:053-000-0000">053-000-0000</a></p>
                 <p class="c-anim-up">■ JR東海道本線「浜松駅」から徒歩約6分</p>
                 <div class="btn_cont c-anim-up">
-                  <a href="" class="link_btn">
+                  <a href="https://www.actcity.jp/visitor/exhibition/access/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
@@ -83,9 +83,9 @@
               <div class="col">
                 <picture >
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-									<source srcset="/images/access/sp/img_2.png" media="(max-width: 899px)" type="image/webp">
-									<source srcset="/images/access/img_2.png" media="(min-width: 900px)">
-									<img src="/images/access/sp/img_2.png" alt="" class="c-anim-up">
+									<source srcset="/images/access/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+									<source srcset="/images/access/img_2.jpg" media="(min-width: 900px)">
+									<img src="/images/access/img_2.jpg" alt="" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -97,7 +97,7 @@
                 <p class="c-anim-up">■ TEL：<a href="tel:053-454-0178">053-454-0178</a> ／ FAX：<a href="tel:053-454-0184">053-454-0184</a></p>
                 <p class="c-anim-up">■ JR東海道本線「浜松駅」から徒歩約7分</p>
                 <div class="btn_cont c-anim-up">
-                  <a href="" class="link_btn">
+                  <a href="https://www.mirai-ra.jp/access/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
@@ -112,21 +112,21 @@
               <div class="col">
                 <picture >
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-									<source srcset="/images/access/sp/img_3.png" media="(max-width: 899px)" type="image/webp">
-									<source srcset="/images/access/img_3.png" media="(min-width: 900px)">
-									<img src="/images/access/sp/img_3.png" alt="" class="c-anim-up">
+									<source srcset="/images/access/img_3.jpg" media="(max-width: 899px)" type="image/webp">
+									<source srcset="/images/access/img_3.jpg" media="(min-width: 900px)">
+									<img src="/images/access/img_3.jpg" alt="" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
                 <h3 class="c-anim-up">
                   <span>サテライト会場</span><br>
-                  浜松科学館
+                  浜松市楽器博物館
                 </h3>
-                <p class="c-anim-up">■ 静岡県浜松市中区北寺島町256番地の3</p>
-                <p class="c-anim-up">■ TEL：<a href="tel:053-454-0178">053-454-0178</a> ／ FAX：<a href="tel:053-454-0184">053-454-0184</a></p>
+                <p class="c-anim-up">■ 住所は　静岡県浜松市中区中央3-9-1</p>
+                <p class="c-anim-up">■ TEL：<a href="tel:053-451-1128">053-451-1128</a> ／ FAX：<a href="tel:053-451-1129">053-451-1129</a></p>
                 <p class="c-anim-up">■ JR東海道本線「浜松駅」から徒歩約7分</p>
                 <div class="btn_cont c-anim-up">
-                  <a href="" class="link_btn">
+                  <a href="https://www.gakkihaku.jp/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >

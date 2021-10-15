@@ -51,7 +51,7 @@
         <div class="wrapper">
           <div class="container">
             <div class="btn_cont c-anim-up">
-              <a href="" class="link_btn">
+              <a href="https://www.youtube.com/channel/UCC3ltT2lGbSh54CF8rqJrbw" target="_blank" class="link_btn">
                 SFD2021 <br class="sp">Youtube チャンネルはこちら
                 <div class="svg_cont">
                   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
@@ -74,12 +74,12 @@
                         <h3>
                           ナンセンスマシーンコンサート</h3>
                         <p>
-                          ■ 時間： 11:00～12:00 <br>
-                          ■ 出演： 明和電機
+                          ■ 時間：11:00～12:00 <br>
+                          ■ 出演：明和電機
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -90,12 +90,12 @@
                         <h3>
                         ともとものガラクタ音楽会</h3>
                         <p>
-                          ■ 時間： 13:00～14:00 <br>
-                          ■ 出演： 山口 とも
+                          ■ 時間：13:00～14:00 <br>
+                          ■ 出演：山口 とも
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -106,12 +106,12 @@
                         <h3>
                         ヤマハ ディスクラビア  リモートコンサート</h3>
                         <p>
-                          ■ 時間： 14:30～15:30 <br>
-                          ■ 出演： よみぃ　ほか
+                          ■ 時間：14:30～15:30 <br>
+                          ■ 出演：よみぃ　ほか
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -123,11 +123,11 @@
                           <span>Mori-no-ot</span>
                           バードコールを作ろう</h3>
                         <p>
-                        ■ 時間： 10:15～11:15
+                        ■ 時間：10:15～11:15
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -139,11 +139,11 @@
                           <span>山口 とも</span>
                           シャカシャカペッカー作り</h3>
                         <p>
-                        ■ 時間： 10:45～11:45
+                        ■ 時間：10:45～11:45
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -164,12 +164,12 @@
                         <h3>
                         空間を操り、誰でも楽しめる不思議な楽器  テルミン＆マトリョミン</h3>
                         <p>
-                          ■ 時間： 11:00～12:00 <br>
-                          ■ 出演： 竹内正実　ほか
+                          ■ 時間：11:00～12:00 <br>
+                          ■ 出演：竹内正実　ほか
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -180,15 +180,15 @@
                         <h3>
                         TR808開発の中心人物が語る過去・現在・未来</h3>
                         <p>
-                        ■ 時間： 15:00～16:00
+                        ■ 時間：15:00～16:00
                         </p>
                         <p class="text-indent">
-                        ■ 出演： 菊本忠男（ローランド元代表取締役社長、TR-808開発者）、<br>
+                        ■ 出演：菊本忠男（ローランド元代表取締役社長、TR-808開発者）、<br>
                         小林茂（博士（メディアデザイン学）、情報科学芸術大学院大学［IAMAS］メディア表現研究科教授。）
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -200,11 +200,11 @@
                           <span>Mori-no-ot</span>
                           バードコールを作ろう</h3>
                         <p>
-                        ■ 時間： 10:15～11:15
+                        ■ 時間：10:15～11:15
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -216,11 +216,11 @@
                           <span>ヤマハ株式会社</span>
                           楽器工作  つくろう、ならそう！「ギター」</h3>
                         <p>
-                        ■ 時間： 10:30～11:30
+                        ■ 時間：10:30～11:30
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/workshop/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>
@@ -232,11 +232,11 @@
                           <span>MATHRAX</span>
                           ふれると音を奏でる鳥の基板のアクセサリー</h3>
                         <p>
-                        ■ 時間： 12:00～13:30
+                        ■ 時間：12:00～13:30
                         </p>
                       </div>
                       <div class="itm">
-                        <a href="" class="link_btn">詳しくはこちら</a>
+                        <a href="/event/" class="link_btn">詳しくはこちら</a>
                       </div>
                     </div>
                   </li>

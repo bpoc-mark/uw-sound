@@ -3753,6 +3753,8 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 16px;
   color: #0d0d0d;
   line-height: 25.5px;
+  text-indent: -70px;
+  margin-left: 70px;
 }
 
 #Satellite main .sect_2 .wrapper .container .box_list li p:not(:last-child) {
@@ -3960,6 +3962,18 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 16px;
   color: #0d0d0d;
   line-height: 25.5px;
+  text-indent: -70px;
+  margin-left: 70px;
+}
+
+#Satellite main .sect_3 .wrapper .container .box_list li p.txt_indent_99 {
+  text-indent: -104px;
+  margin-left: 104px;
+}
+
+#Satellite main .sect_3 .wrapper .container .box_list li p.txt_indent_168 {
+  text-indent: -168px;
+  margin-left: 168px;
 }
 
 #Satellite main .sect_3 .wrapper .container .box_list li p:not(:last-child) {
@@ -4003,7 +4017,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Global main .sect_1 .wrapper {
   padding-top: 170px;
   padding-bottom: 60px;
-  background-image: url(../images/global/sp/bg_img.png);
+  background-image: url(../images/global/sp/bg_img.jpg);
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;

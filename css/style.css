@@ -3649,8 +3649,8 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 16px;
   color: #0d0d0d;
   line-height: 40px;
-  text-indent: -75px;
-  margin-left: 75px;
+  text-indent: -70px;
+  margin-left: 70px;
 }
 
 #Satellite main .sect_3 .wrapper {
@@ -3839,8 +3839,8 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 16px;
   color: #0d0d0d;
   line-height: 40px;
-  text-indent: -75px;
-  margin-left: 75px;
+  text-indent: -70px;
+  margin-left: 70px;
 }
 
 #Satellite main .sect_3 .wrapper .container .box_list li .desc {
@@ -3879,7 +3879,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Global main .sect_1 .wrapper {
   padding-top: 130px;
   padding-bottom: 130px;
-  background-image: url(../images/global/bg_img.png);
+  background-image: url(../images/global/bg_img.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

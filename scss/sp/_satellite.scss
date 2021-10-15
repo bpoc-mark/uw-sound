@@ -145,6 +145,8 @@
               font-size: 16px;
               color: #0d0d0d;
               line-height: 25.5px;
+              text-indent: -70px;
+              margin-left: 70px;
               &:not(:last-child){
                 margin-bottom: 10px;
               }
@@ -317,6 +319,16 @@
               font-size: 16px;
               color: #0d0d0d;
               line-height: 25.5px;
+              text-indent: -70px;
+              margin-left: 70px;
+              &.txt_indent_99{
+                text-indent: -104px;
+                margin-left: 104px;
+              }
+              &.txt_indent_168{
+                text-indent: -168px;
+                margin-left: 168px;
+              }
               &:not(:last-child){
                 margin-bottom: 10px;
               }

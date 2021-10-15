@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title>出典作品 | <?php echo SITE_NAME ?></title>
+  <title>出展作品 | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -37,10 +37,10 @@
                 <a href="/">TOP</a>
               </li>
               <li>
-                <a href="/source_work/">出典作品</a>
+                <a href="/source_work/">出展作品</a>
               </li>
             </ul>
-            <h3>出典作品</h3>
+            <h3>出展作品</h3>
               <p>
                 <img src="/images/common/lower_pg_img.svg" alt="">
               </p>
@@ -69,33 +69,41 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_1.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_1_row_1/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_1/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_1/img_1.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_1.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_1_row_1/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_1/img_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_1/img_2.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_1.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_1_row_1/img_3.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_1/img_3.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_1/img_3.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_1.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_1_row_1/img_4.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_1/img_4.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_1/img_4.jpg" alt="">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide">
+                      <picture >
+                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+                        <source srcset="/images/source_work/sect_1_row_1/img_5.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_1/img_5.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_1/img_5.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -126,33 +134,17 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_2.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_1_row_2/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_2/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_2/img_1.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_2.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_2.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_1_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_1_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_1_img_2.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_1_row_2/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_1_row_2/img_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_1_row_2/img_2.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -178,7 +170,7 @@
             <div class="item_cont">
               <div class="row">
                 <div class="col">
-                  <img src="/images/source_work/sect_2_img_1.png" alt="" class="c-anim-up">
+                  <img src="/images/source_work/sect_2_img_1.jpg" alt="" class="c-anim-up">
                 </div>
                 <div class="col">
                   <h5 class="c-anim-up">クリスタルグランドピアノ</h5>
@@ -190,7 +182,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <img src="/images/source_work/sect_2_img_1.png" alt="" class="c-anim-up">
+                  <img src="/images/source_work/sect_2_img_1.jpg" alt="" class="c-anim-up">
                 </div>
                 <div class="col">
                   <h5 class="c-anim-up">ミニグランドピアノ</h5>
@@ -222,33 +214,9 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_1.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_1.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_1.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_1.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_1.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_1.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_1/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_1/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_1/img_1.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -277,33 +245,17 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_2.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_2/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_2/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_2/img_1.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_2.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_2.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_2.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_2.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_2.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_2/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_2/img_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_2/img_2.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -335,33 +287,33 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_3.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_3.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_3.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_3/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_3/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_3/img_1.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_3.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_3.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_3.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_3/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_3/img_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_3/img_2.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_3.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_3.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_3.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_3/img_3.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_3/img_3.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_3/img_3.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_3.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_3.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_3.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_3/img_4.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_3/img_4.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_3/img_4.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -392,33 +344,33 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_4.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_4.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_4.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_4/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_4/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_4/img_1.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_4.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_4.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_4.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_4/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_4/img_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_4/img_2.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_4.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_4.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_4.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_4/img_3.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_4/img_3.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_4/img_3.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_4.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_4.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_4.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_4/img_4.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_4/img_4.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_4/img_4.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -450,33 +402,17 @@
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_5.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_5.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_5.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_5/img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_5/img_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_5/img_1.jpg" alt="">
                       </picture>
                     </div>
                     <div class="swiper-slide">
                       <picture >
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_5.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_5.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_5.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_5.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_5.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_5.png" alt="" class="c-anim-up">
-                      </picture>
-                    </div>
-                    <div class="swiper-slide">
-                      <picture >
-                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                        <source srcset="/images/source_work/sp/sect_3_img_5.png" media="(max-width: 899px)" type="image/webp">
-                        <source srcset="/images/source_work/sect_3_img_5.png" media="(min-width: 900px)">
-                        <img src="/images/source_work/sp/sect_3_img_5.png" alt="" class="c-anim-up">
+                        <source srcset="/images/source_work/sect_3_row_5/img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/sect_3_row_5/img_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/sect_3_row_5/img_2.jpg" alt="">
                       </picture>
                     </div>
                   </div>
@@ -509,9 +445,9 @@
                 <div class="col">
                   <picture >
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                    <source srcset="/images/source_work/sp/sect_4_img_1.png" media="(max-width: 899px)" type="image/webp">
-                    <source srcset="/images/source_work/sect_4_img_1.png" media="(min-width: 900px)">
-                    <img src="/images/source_work/sp/sect_4_img_1.png" alt="" class="c-anim-up">
+                    <source srcset="/images/source_work/sect_4_img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                    <source srcset="/images/source_work/sect_4_img_1.jpg" media="(min-width: 900px)">
+                    <img src="/images/source_work/sect_4_img_1.jpg" alt="" class="c-anim-up">
                   </picture>
                 </div>
                 <div class="col">
@@ -525,9 +461,9 @@
                 <div class="col">
                   <picture >
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                    <source srcset="/images/source_work/sp/sect_4_img_2.png" media="(max-width: 899px)" type="image/webp">
-                    <source srcset="/images/source_work/sect_4_img_2.png" media="(min-width: 900px)">
-                    <img src="/images/source_work/sp/sect_4_img_2.png" alt="" class="c-anim-up">
+                    <source srcset="/images/source_work/sect_4_img_2.jpg" media="(max-width: 899px)" type="image/webp">
+                    <source srcset="/images/source_work/sect_4_img_2.jpg" media="(min-width: 900px)">
+                    <img src="/images/source_work/sect_4_img_2.jpg" alt="" class="c-anim-up">
                   </picture>
                 </div>
                 <div class="col">
@@ -541,9 +477,9 @@
                 <div class="col">
                   <picture >
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                    <source srcset="/images/source_work/sp/sect_4_img_3.png" media="(max-width: 899px)" type="image/webp">
-                    <source srcset="/images/source_work/sect_4_img_3.png" media="(min-width: 900px)">
-                    <img src="/images/source_work/sp/sect_4_img_3.png" alt="" class="c-anim-up">
+                    <source srcset="/images/source_work/sect_4_img_3.jpg" media="(max-width: 899px)" type="image/webp">
+                    <source srcset="/images/source_work/sect_4_img_3.jpg" media="(min-width: 900px)">
+                    <img src="/images/source_work/sect_4_img_3.jpg" alt="" class="c-anim-up">
                   </picture>
                 </div>
                 <div class="col">
@@ -585,9 +521,9 @@
               <div class="col">
                 <picture >
                 <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-                  <source srcset="/images/source_work/sp/sect_5_img_1.png" media="(max-width: 899px)" type="image/webp">
-                  <source srcset="/images/source_work/sect_5_img_1.png" media="(min-width: 900px)">
-                  <img src="/images/source_work/sp/sect_5_img_1.png" alt="" class="c-anim-up">
+                  <source srcset="/images/source_work/sect_5_img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                  <source srcset="/images/source_work/sect_5_img_1.jpg" media="(min-width: 900px)">
+                  <img src="/images/source_work/sect_5_img_1.jpg" alt="" class="c-anim-up">
                 </picture>
               </div>
             </div>
