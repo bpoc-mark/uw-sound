@@ -179,7 +179,7 @@
 										</a>
 									</li>
 									<li>
-										<a  class="link_btn" href="">
+										<a  class="link_btn" href="/video_schedule/">
 											動画配信<br class="pc">
 											スケジュール
 											<div class="svg_cont">
