@@ -70,17 +70,20 @@
 					公益財 団法人浜松国際交流協会、<br>
 					公益財団法人浜松市文化振興財団、浜松市 
 				</p>
-				<ul>
-					<li>
-						<a href="https://www.bunka.go.jp/" target="_blank">
-							<img src="/images/common/fbn01.jpg" alt="">
-						</a>
-					</li>
-					<li>
+				<ul><li>
 						<a href="https://www.city.hamamatsu.shizuoka.jp/" target="_blank">
 							<img src="/images/common/fbn02.jpg" alt="">
 						</a>
 					</li>
+					<li>
+						<a href="https://www.bunka.go.jp/" target="_blank">
+							<img src="/images/common/fbn01.jpg" alt="">
+							<span>
+							令和3年度文化庁<br>文化芸術創造拠点<br>形成事業
+							</span>
+						</a>
+					</li>
+					
 					<li>
 						<a href="https://culture-nippon.go.jp/ja/beyond2020" target="_blank">
 							<img src="/images/common/fbn03.jpg" alt="">

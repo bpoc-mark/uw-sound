@@ -182,7 +182,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <img src="/images/source_work/sect_2_img_1.jpg" alt="" class="c-anim-up">
+                  <img src="/images/source_work/sect_2_img_2.jpg" alt="" class="c-anim-up">
                 </div>
                 <div class="col">
                   <h5 class="c-anim-up">ミニグランドピアノ</h5>
