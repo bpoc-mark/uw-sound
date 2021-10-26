@@ -71,9 +71,7 @@
                   <a href="https://www.actcity.jp/visitor/exhibition/access/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
-                        <path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
-                      </svg>
+                      <svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
                     </div>
                   </a>
                 </div>
@@ -100,9 +98,7 @@
                   <a href="https://www.mirai-ra.jp/access/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
-                        <path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
-                      </svg>
+                    <svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
                     </div>
                   </a>
                 </div>
@@ -129,9 +125,10 @@
                   <a href="https://www.gakkihaku.jp/access/" target="_blank" class="link_btn">
                     詳しくはこちら
                     <div class="svg_cont">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
                         <path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
-                      </svg>
+                      </svg> -->
+                      <svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
                     </div>
                   </a>
                 </div>
@@ -148,76 +145,30 @@
   </div><!-- //AllBox -->
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
 
+  
   <script>
-		const swiper1 = new Swiper('.img_swiper1', {
-			// Optional parameters
-			direction: 'horizontal',
-			loop: true,
-      slidesPerView: 1,
+        var s = Snap("#btn_svg1");
 
-			// If we need pagination
-			pagination: {
-				el: '.swiper-pagination1',
-			},
+        var line = "M978.14,314H924.52c-122.38-.41-200.25,572.79-416.9,0-218-576.35-296.64,0-405.45,0H21.86"
+        var line1 = "M 978.14 314 H 924.52 c -122.38 -0.41 -176.52 0 -416.9 0 c -282.62 0 -296.64 0 -405.45 0 H 21.86"
 
-			// Navigation arrows
-			navigation: {
-				nextEl: '.swiper-button-next1',
-				prevEl: '.swiper-button-prev1',
-			},
+        var circle_1 = s.path(line);
+        var circles = s.group(circle_1);
 
-			// And if we need scrollbar
-			// scrollbar: {
-			// 	el: '.swiper-scrollbar',
-			// },
-		});
-
-    const swiper2 = new Swiper('.img_swiper2', {
-			// Optional parameters
-			direction: 'horizontal',
-			loop: true,
-      slidesPerView: 1,
-
-			// If we need pagination
-			pagination: {
-				el: '.swiper-pagination2',
-			},
-
-			// Navigation arrows
-			navigation: {
-				nextEl: '.swiper-button-next2',
-				prevEl: '.swiper-button-prev2',
-			},
-
-			// And if we need scrollbar
-			// scrollbar: {
-			// 	el: '.swiper-scrollbar',
-			// },
-		});
-
-    const swiper3 = new Swiper('.img_swiper3', {
-			// Optional parameters
-			direction: 'horizontal',
-			loop: true,
-      slidesPerView: 1,
-
-			// If we need pagination
-			pagination: {
-				el: '.swiper-pagination3',
-			},
-
-			// Navigation arrows
-			navigation: {
-				nextEl: '.swiper-button-next3',
-				prevEl: '.swiper-button-prev3',
-			},
-
-			// And if we need scrollbar
-			// scrollbar: {
-			// 	el: '.swiper-scrollbar',
-			// },
-		});
-	</script>
+        circles.attr({
+            fill: 'none',
+            stroke: "#000",
+            strokeWidth:75
+        });
+        
+        function blink(){
+            circle_1.animate({d: line1}, 100, function(){
+                circle_1.animate({d: line}, 500, mina.elastic);
+            });
+        };
+        
+        setInterval(blink, 3000);
+    </script>
 
 </body>
 

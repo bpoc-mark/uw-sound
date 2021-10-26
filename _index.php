@@ -96,14 +96,7 @@
 									サウンドデザインフェスティバル in 浜松2021。</p>
 								<a href="/sdf/" class="link_btn c-anim-up">サウンドデザイン<br class="sp">フェスティバルとは？
 									<div class="svg_cont">
-										<!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648.06 392.58">
-											<defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:50px;}</style></defs>
-											<path class="cls-1" d="M616.23,2379.81H660s52.53,4.44,78.64-80.17c27.92-90.46,121.28-152.93,178.72,3.32,62,168.54,85.45,248.59,147.41,247.09s81.36-71.49,100-111.51c20.86-44.8,29.87-57.43,99.57-57.43" transform="translate(-616.23 -2182.49)"/>
-										</svg> -->
-										<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
-											<path class="svg_btn" d="" stroke="" stroke-width="64" fill="none" />
-										</svg>
-										<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
+									<svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
 									</div>
 								</a>
 							</div>
@@ -205,10 +198,7 @@
 											<span>SFD2021 <br class="pc">Youtube</span>
 											チャンネル
 											<div class="svg_cont">
-												<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
-													<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
-												</svg>
-												<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
+											<svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
 											</div>
 										</a>
 									</li>
@@ -217,10 +207,7 @@
 											動画配信<br class="pc">
 											スケジュール
 											<div class="svg_cont">
-												<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
-													<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
-												</svg>
-												<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
+											<svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
 											</div>
 										</a>
 									</li>

@@ -939,8 +939,8 @@ img[src$=".png"], img[src$=".jpg"] {
     background-color: #0d0d0d;
     border: 1px solid #0d0d0d;
   }
-  .link_btn:hover .svg_cont svg .svg_btn {
-    stroke: #fff;
+  .link_btn:hover .svg_cont svg path {
+    stroke: #fff !important;
   }
 }
 
@@ -4619,3 +4619,4 @@ main#Contact .form_wrap > p {
   letter-spacing: 0.03em;
   font-weight: 500;
 }
+/*# sourceMappingURL=style.css.map */

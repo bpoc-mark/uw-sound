@@ -70,8 +70,8 @@ img {
       border: 1px solid #0d0d0d;
       .svg_cont {
         svg {
-          .svg_btn {
-            stroke: #fff;
+          path {
+            stroke: #fff !important;
           }
         }
       }

@@ -54,9 +54,7 @@
               <a href="https://www.youtube.com/channel/UCC3ltT2lGbSh54CF8rqJrbw" target="_blank" class="link_btn">
                 SFD2021 <br class="sp">Youtube チャンネルはこちら
                 <div class="svg_cont">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
-                    <path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
-                  </svg>
+                <svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
                 </div>
               </a>
             </div>
