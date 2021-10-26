@@ -36,6 +36,11 @@
         margin-bottom: 30px;
         text-align: center;
       }
+
+      span.red {
+        color: #cc0303;
+      }
+      
       table {
         width: 100%;
         &:not(:last-of-type) { margin-bottom: 80px;}
@@ -63,6 +68,8 @@
           }
         }
       }
+
+      .companionBoxParent { margin-top: 50px;}
 
       .btn_cont{
         a{

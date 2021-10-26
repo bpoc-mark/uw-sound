@@ -14,8 +14,8 @@ $str = explode('/', $url); ?>
 	
 	<div class="left">
 		<div class="txt_cont">
-			<p>2021.12.11<span>SAT</span> -12<span>SUN</span> <span>FREE</span></p>
-			<p>OPEN.10:00 - CLOSE.17:00</p>
+			<img class="pc" src="/images/common/header_period.svg" alt="2021.12.11sat-12sun free open.10:00-close.17:00">
+			<img class="sp" src="/images/common/header_period_sp.svg" alt="2021.12.11sat-12sun free open.10:00-close.17:00">
 		</div>
 		<div class="menu">
 			<span>
@@ -45,10 +45,15 @@ $str = explode('/', $url); ?>
 	<div class="menu_cont">
 		<div class="row">
 			<div class="col">
-				<p>2021.12.11<span>SAT</span><br>
+				<!-- <p>2021.12.11<span>SAT</span><br>
 				-12<span>SUN</span><span>FREE</span></p>
-				<p>OPEN.10:00 - CLOSE.17:00</p>
-				<img src="/images/common/header_img.png" alt="">
+				<p>OPEN.10:00 - CLOSE.17:00</p> -->
+				<div class="period">
+					<img class="pc" src="/images/common/nav_period.svg" alt="">
+					<img class="sp" src="/images/common/nav_period.svg" alt="">
+				</div>
+				<img class="pc" src="/images/common/header_img.jpg" alt="">
+				<img class="sp" src="/images/common/header_img_sp.jpg" alt="">
 			</div>
 			<div class="col">
 				<nav>
@@ -57,7 +62,7 @@ $str = explode('/', $url); ?>
 							<a href="/">TOP</a>
 						</li>
 						<li>
-							<a href="/sdf/">SDFとは？</a>
+							<a href="/sdf/">サウンドデザイン<br>フェスティバルとは？</a>
 						</li>
 						<li>
 							<a href="/topics/">トピックス</a>

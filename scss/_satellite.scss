@@ -110,13 +110,26 @@
             &:not(:last-child){
               margin-bottom: 10px;
             }
+            .row {
+              justify-content: space-between;
+              margin-bottom: 0;
+              .text_wrap {
+                width: 75%;
+              }
+              .img_wrap {
+                width: 25%;
+                padding-left: 20px;
+                box-sizing: border-box;
+                max-width: 267px
+              }
+            }
             h3{
               @include Ryo_Gothic(700);
               font-size: 24px;
               color: #0d0d0d;
               line-height: 36px;
               margin-left: -12px;
-              margin-bottom: 10px;
+              margin-bottom: 15px;
               span{
                 @include Ryo_Gothic(700);
                 font-size: 18px;
@@ -131,9 +144,10 @@
               @include Ryo_Gothic(500);
               font-size: 16px;
               color: #0d0d0d;
-              line-height: 40px;
+              line-height: 1.7;
               text-indent: -70px;
               margin-left: 70px;
+              margin-bottom: 15px;
             }
           }
         }
@@ -224,7 +238,8 @@
                             @include Ryo_Gothic(500);
                             font-size: 16px;
                             color: #0d0d0d;
-                            line-height: 32px;
+                            line-height: 1.5;
+                            margin: 6px 0;
                           }
                         }
                         &:last-child{
@@ -234,7 +249,8 @@
                             @include Ryo_Gothic(500);
                             font-size: 16px;
                             color: #0d0d0d;
-                            line-height: 32px;
+                            line-height: 1.5;
+                            margin: 6px 0;
                             &.text-indent{
                               text-indent: -67px;
                               margin-left: 67px;
@@ -269,13 +285,31 @@
             &:not(:last-child){
               margin-bottom: 10px;
             }
+            .row {
+              margin-bottom: 0;
+              .text_wrap {
+                width: 50%;
+              }
+              .img_wrap {
+                width: 50%;
+                padding-left: 20px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: flex-end;
+                figure {
+                  width: 49%;
+                  padding: 0 5px;
+                  box-sizing: border-box;
+                }
+              }
+            }
             h3{
               @include Ryo_Gothic(700);
               font-size: 24px;
               color: #0d0d0d;
               line-height: 36px;
               margin-left: -12px;
-              margin-bottom: 10px;
+              margin-bottom: 15px;
               span{
                 @include Ryo_Gothic(700);
                 font-size: 18px;
@@ -290,9 +324,17 @@
               @include Ryo_Gothic(500);
               font-size: 16px;
               color: #0d0d0d;
-              line-height: 40px;
+              line-height: 1.7;
               text-indent: -70px;
               margin-left: 70px;
+              margin-bottom: 15px;
+              &.hosoku {
+                text-indent:-1em;
+                margin-left:1em;
+                line-height:1.4;
+                margin-top: 10px;
+                a { text-decoration: underline;}
+              }
             }
             .desc{
               margin-top: 33px;
@@ -310,6 +352,8 @@
               p{
                 text-indent: 0;
                 margin-left: 0;
+                line-height: 40px;
+                margin-bottom: 0;
               }
             }
           }

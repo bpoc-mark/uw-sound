@@ -19,10 +19,14 @@
                 margin-left: 5%;
               }
               a{
-                img{
+                figure {
                   width: 95%;
                   display: block;
                   margin-left: auto;
+                  overflow: hidden;
+                  img{
+                    transition: .3s;
+                  }
                 }
                 .post_cont{
                   border-top: 1px solid #191919;
@@ -45,6 +49,10 @@
                     line-height: 28.8px;
                     color: #000;
                   }
+                }
+                &:hover img {
+                  transform: scale(1.04);
+                  opacity: .8;
                 }
               }
             }

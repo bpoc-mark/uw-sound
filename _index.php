@@ -29,14 +29,45 @@
 		</header>
 
 		<main>
-			<section class="sect_1">
+			<section class="sect_1 pc">
 				<div class="wrapper">
-					<picture >
-					<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-						<source srcset="/images/top/section_1/sp/main.jpg" media="(max-width: 899px)" type="image/webp">
-						<source srcset="/images/top/section_1/main.jpg" media="(min-width: 900px)">
-						<img src="/images/top/section_1/sp/main.jpg" alt="" class="c-anim-up">
-					</picture>
+					<div class="swiper img_swiper1 c-anim-up">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+						<img src="/images/top/section_1/main.jpg" alt="">
+						</div>
+
+						<div class="swiper-slide">
+						<img src="/images/top/section_1/002.jpg" alt="">
+						</div>
+
+						<div class="swiper-slide">
+						<img src="/images/top/section_1/003.jpg" alt="">
+						</div>
+						
+                  	</div>
+                	</div>
+				</div>
+			</section>
+
+			<section class="sect_1 sp">
+				<div class="wrapper">
+					<div class="swiper img_swiper1 c-anim-up">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+						<img src="/images/top/section_1/sp/main.jpg" alt="">
+						</div>
+
+						<div class="swiper-slide">
+						<img src="/images/top/section_1/sp/002.jpg" alt="">
+						</div>
+
+						<div class="swiper-slide">
+						<img src="/images/top/section_1/sp/003.jpg" alt="">
+						</div>
+						
+                  	</div>
+                	</div>
 				</div>
 			</section>
 			<section class="sect_2">
@@ -63,7 +94,7 @@
 									つなげるモノは想像次第、つなげるカタチも創造次第。<br>
 									様々なコミュニケーションのカタチに出逢う<br>
 									サウンドデザインフェスティバル in 浜松2021。</p>
-								<a href="/sdf/" class="link_btn c-anim-up">SDFとは？
+								<a href="/sdf/" class="link_btn c-anim-up">サウンドデザイン<br class="sp">フェスティバルとは？
 									<div class="svg_cont">
 										<!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648.06 392.58">
 											<defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:50px;}</style></defs>
@@ -161,8 +192,11 @@
 								<h3 class="c-anim-up"><span>SDF2021</span> 動画配信</h3>
 								<p class="c-anim-up">音の可能性を探求するイベント「サウンドデザインフェスティバル in 浜松2021」の実施報告動画です。</p>
 							</div>
-							<div class="col c-anim-up" style="pointer-events:none;">
-								<img src="/images/top/section_4/1.jpg" alt="">
+							<div class="col c-anim-up">
+								<a href="https://www.youtube.com/channel/UCC3ltT2lGbSh54CF8rqJrbw" target="_blank">
+									<img class="pc" src="/images/top/section_4/1.jpg" alt="">
+									<img class="sp" src="/images/top/section_4/1_sp.jpg" alt="">
+								</a>
 							</div>
 							<div class="col">
 								<ul class="c-anim-up">
@@ -195,13 +229,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="video_modal">
-					<div class="overlay"></div>
-					<div class="video_frame">
-						<div class="btn_modal_close"></div>
-						<iframe width="100%" height="315" src="https://www.youtube.com/embed/yHszIjviOFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
 			</section>
 		</main>
 
@@ -226,6 +253,20 @@
 	</script> -->
 
 	<script>
+		setTimeout(function(){
+			const swiper1 = new Swiper('.img_swiper1', {
+				direction: 'horizontal',
+				effect: "fade", //フェードのエフェクト
+				loop: true,
+				speed: 1500,
+				autoplay: {
+				delay: 2000, //４秒後に次の画像へ
+				disableOnInteraction: false //ユーザー操作後に自動再生を再開する
+				},
+			});
+		}, 1500);
+
+
 		const swiper = new Swiper('.news_slider', {
 			// Optional parameters
 			direction: 'horizontal',

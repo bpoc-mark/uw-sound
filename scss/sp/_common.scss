@@ -117,32 +117,7 @@ header {
         justify-content: flex-end;
         .txt_cont{
           margin-right: 20px;
-          p{
-            @include Futura_PT(600);
-            color: #000;
-            letter-spacing: 0;
-            line-height: 15px;
-            &:nth-of-type(1){
-              font-size: 16px;
-              letter-spacing: -.03em;
-              span{
-                font-size: 10px;
-                &:nth-of-type(3){
-                  background-color: #000000;
-                  color: #fff;
-                  padding: 0 10px 0 2px;
-                  position: relative;
-                  top: -2px;
-                  @media only screen and (max-width: 375px) {
-                    padding: 0 5px 0 2px;
-                  }
-                }
-              }
-            }
-            &:nth-of-type(2){
-              font-size: 14px;
-            }
-          }
+          width: 43.33vw;
         }
         .menu{
           cursor: pointer;
@@ -274,15 +249,10 @@ header {
         .row{
           .col{
             &:first-child{
-              p{
+              .period {
                 opacity: 1;
                 transform: translateY(0);
-                &:nth-of-type(1){
-                  transition-delay: 1.2s;
-                }
-                &:nth-of-type(2){
-                  transition-delay: 1.3s;
-                }
+                transition-delay: 1.3s;
               }
               img{
                 opacity: 1;
@@ -355,49 +325,13 @@ header {
           &:first-child{
             order: 2;
             width: 100%;
-            p{
+            .period {
+              margin-bottom: 15px;
               transition: .5s ease-in-out;
               opacity: 0;
               transform: translateY(-30px);
-              @include Futura_PT(600);
-              color: #fff;
-              &:nth-of-type(1){
-                font-size: 46px;
-                line-height: 40px;
-                @media only screen and (max-width: 370px) {
-                  font-size: 36px;
-                }
-                span{
-                  font-size: 30px;
-                  @media only screen and (max-width: 370px) {
-                    font-size: 20px;
-                  }
-                  &:nth-of-type(3){
-                    margin-left: 5px;
-                    padding: 0 80px 0 5px;
-                    font-size: 19px;
-                    background-color: #fff;
-                    color: #191919;
-                    position: relative;
-                    top: -5px;
-                    @media only screen and (max-width: 370px) {
-                      font-size: 15px;
-                      top: -2px;
-                      padding: 0 60px 0 5px;
-                    }
-                  }
-                }
-              }
-              &:nth-of-type(2){
-                font-size: 21px;
-                margin-top: -5px;
-                margin-bottom: 15px;
-                @media only screen and (max-width: 370px) {
-                  font-size: 14px;
-                }
-              }
             }
-            img{
+            > img{
               // width: 100%;
               transition: .5s ease-in-out;
               opacity: 0;

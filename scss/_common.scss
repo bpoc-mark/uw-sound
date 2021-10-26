@@ -141,6 +141,7 @@ header {
         justify-content: flex-end;
         .txt_cont{
           margin-right: 40px;
+          width: 335px;
           p{
             @include Futura_PT(600);
             color: #000;
@@ -281,14 +282,11 @@ header {
         .row{
           .col{
             &:first-child{
-              p{
+              .period {
                 opacity: 1;
                 transform: translateY(0);
-                &:nth-of-type(2){
-                  transition-delay: .2s;
-                }
               }
-              img{
+              > img{
                 opacity: 1;
                 transform: translateY(0);
                 transition-delay: .3s;
@@ -337,35 +335,13 @@ header {
         .col{
           &:first-child{
             width: 260px;
-            p{
+            .period {
+              margin-bottom: 30px;
               transition: .5s ease-in-out;
               opacity: 0;
               transform: translateY(-30px);
-              @include Futura_PT(600);
-              color: #fff;
-              &:nth-of-type(1){
-                font-size: 44px;
-                line-height: 40px;
-                span{
-                  font-size: 28px;
-                  &:nth-of-type(3){
-                    margin-left: 5px;
-                    padding: 0 80px 0 5px;
-                    font-size: 18px;
-                    background-color: #fff;
-                    color: #191919;
-                    position: relative;
-                    top: -5px;
-                  }
-                }
-              }
-              &:nth-of-type(2){
-                font-size: 20px;
-                margin-top: -5px;
-                margin-bottom: 15px;
-              }
             }
-            img{
+            > img{
               transition: .5s ease-in-out;
               opacity: 0;
               transform: translateY(-30px);

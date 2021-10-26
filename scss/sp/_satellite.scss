@@ -123,6 +123,17 @@
             &:not(:last-child){
               margin-bottom: 10px;
             }
+            .row {
+              margin-bottom: 0;
+              .img_wrap {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 25px;
+                figure {
+                  width: 100%;
+                }
+              }
+            }
             h3{
               @include Ryo_Gothic(700);
               font-size: 20px;
@@ -297,6 +308,18 @@
             &:not(:last-child){
               margin-bottom: 10px;
             }
+            .row {
+              margin-bottom: 0;
+              .img_wrap {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 25px;
+                figure {
+                  width: 49%;
+                }
+              }
+            }
+            &:first-of-type .row .img_wrap figure { width: 100%;}
             h3{
               @include Ryo_Gothic(700);
               font-size: 20px;
@@ -315,7 +338,6 @@
               }
             }
             p{
-              @include Ryo_Gothic(500);
               font-size: 16px;
               color: #0d0d0d;
               line-height: 25.5px;
@@ -331,6 +353,13 @@
               }
               &:not(:last-child){
                 margin-bottom: 10px;
+              }
+              &.hosoku {
+                text-indent:-1em;
+                margin-left:1em;
+                line-height:1.4;
+                margin-top: 10px;
+                a { text-decoration: underline;}
               }
             }
             .desc{

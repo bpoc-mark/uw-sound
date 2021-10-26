@@ -30,7 +30,7 @@
 					③ 新型コロナウイルス感染症陽性とされた者との濃厚接触がある方。
 				</p>
 				<p>
-					④ ご来場日から遡って2週間以内に海外から日本へ入国された方。
+					④ ご来場日から遡って過去２週間以内に、入国制限や入国後の観察機関を必要とされる国・地域、緊急事態宣言の発出された地域への訪問歴および該当在住者との濃厚接触がある方。
 				</p>
 				<p class="pdf"><a href="/pdf/covid19.pdf" target="_blank">新型コロナウイルス感染拡大防止に関する<br class="sp">皆様へのお願い(PDF版)</a></p>
 			</div>
@@ -43,7 +43,7 @@
 				<nav>
 					<ul>
 						<li><a href="/"><span>TOP</span></a></li>
-						<li><a href="/sdf/"><span>SDF</span>とは？</a></li>
+						<li><a href="/sdf/">サウンドデザイン<br>フェスティバルとは？</a></li>
 						<li><a href="/topics/">トピックス</a></li>
 						<li><a href="/source_work/">出展作品</a></li>
 						<li><a href="/workshop/">ワークショップ</a></li>
@@ -64,11 +64,11 @@
 				<h5>【 主催 】</h5>
 				<p>
 					はままつ響きの創造プロジェクト実行委員会／浜松市 <br>
-					公立大学法人静岡文化芸術大学、<br>
+					( 公立大学法人静岡文化芸術大学、<br>
 					公益財団法人浜松・浜名湖ツーリズムビューロー、<br>
 					浜松商工会議所、公益財団法人浜松地域イノベーション推進機構、<br>
 					公益財 団法人浜松国際交流協会、<br>
-					公益財団法人浜松市文化振興財団、浜松市 
+					公益財団法人浜松市文化振興財団 )
 				</p>
 				<ul><li>
 						<a href="https://www.city.hamamatsu.shizuoka.jp/" target="_blank">
@@ -93,7 +93,7 @@
 			</div>
 			<div class="col">
 				<div class="copy">
-					<a href="">PRIVACY POLICY</a>
+					<a href="/privacy/">PRIVACY POLICY</a>
 					<small>Copyright &copy; HAMAMATSU CITY. All Rights Reserved</small>
 				</div>
 			</div>

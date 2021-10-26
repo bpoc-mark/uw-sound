@@ -1,0 +1,58 @@
+/*==================================
+  Global
+==================================*/
+#Global main {
+  .sect_1{
+    background-color: #000000;
+    .wrapper{
+      padding-top: 170px;
+      padding-bottom: 60px;
+      background-image: url(../images/global/sp/bg_img.jpg);
+      background-size: cover;
+      background-position: center 0;
+      background-repeat: no-repeat;
+      .container{
+        .row{
+          .col{
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            h3{
+              width: 45%;
+              @include Futura_PT(700);
+              font-size: 30px;
+              color: #fff;
+              max-width: 360px;
+              position: relative;
+              &::after{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                bottom: -20px;
+                right: 0;
+              }
+            }
+            picture{
+              width: 55%;
+              img{
+              }
+            }
+            p{
+              margin-top: 30px;
+              width: 100%;
+              @include Ryo_Gothic(500);
+              font-size: 16px;
+              color: #fff;
+              line-height: 32px;
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}

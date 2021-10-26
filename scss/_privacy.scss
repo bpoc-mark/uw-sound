@@ -1,0 +1,48 @@
+/*==================================
+  Privacy
+==================================*/
+#Privacy main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 105px;
+      .container{
+        max-width: 910px;
+
+        .lead {
+          margin-bottom: 50px;
+        }
+
+        .wrap {
+          &:not(:last-of-type){ margin-bottom: 50px;}
+
+          h4 {
+            font-weight: 700;
+            font-size: 22px;
+            color: #0d0d0d;
+            line-height: 36px;
+            margin-bottom: 20px;
+          }
+          dl {
+            &:not(:last-of-type){ margin-bottom: 30px;}
+
+            dt {
+              font-weight: 700;
+              font-style: normal;
+              font-size: 18px;
+              color: #0d0d0d;
+              margin-bottom: 8px;
+            }
+            dd {
+              color: #0d0d0d;
+
+            }
+          }
+          p{
+            color: #0d0d0d;
+          }
+        }
+      }
+    }
+  }
+
+}
