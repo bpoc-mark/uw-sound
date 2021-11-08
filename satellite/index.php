@@ -81,7 +81,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/satellite/img_1.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/satellite/img_1.jpg" media="(min-width: 900px)">
-									<img src="/images/satellite/img_1.jpg" alt="" class="c-anim-up">
+									<img src="/images/satellite/img_1.jpg" alt="メディアアーティスト 伊藤 尚未氏" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -89,7 +89,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/satellite/img_2.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/satellite/img_2.jpg" media="(min-width: 900px)">
-									<img src="/images/satellite/img_2.jpg" alt="" class="c-anim-up">
+									<img src="/images/satellite/img_2.jpg" alt="うえちゃん" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -97,7 +97,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/satellite/img_3.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/satellite/img_3.jpg" media="(min-width: 900px)">
-									<img src="/images/satellite/img_3.jpg" alt="" class="c-anim-up">
+									<img src="/images/satellite/img_3.jpg" alt="手作りスピーカー" class="c-anim-up">
 								</picture>
               </div>
             </div>
@@ -119,7 +119,7 @@
                     <p>■ 料金：常設展入場料に含む</p>
                   </div>
                   <div class="img_wrap">
-                    <figure><img src="/images/satellite/kagaku01.jpg" alt="「たたく、はじく、こする、ん？」"></figure>
+                    <figure><img src="/images/satellite/kagaku01.jpg" alt="メディアアーティスト 伊藤 尚未氏"></figure>
                   </div>
                 </div>
               </li>
@@ -137,7 +137,7 @@
                     <p>■ 料金：常設展入場料に含む</p>
                   </div>
                   <div class="img_wrap">
-                    <figure><img src="/images/satellite/kagaku02.jpg" alt="「うえちゃんの特別サイエンスショー『音』」"></figure>
+                    <figure><img src="/images/satellite/kagaku02.jpg" alt="うえちゃん"></figure>
                   </div>
                 </div>
               </li>
@@ -157,7 +157,7 @@
                     <p>■ 料金：400円</p>
                   </div>
                   <div class="img_wrap">
-                    <figure><img src="/images/satellite/kagaku03.jpg" alt="「手作りスピーカー」"></figure>
+                    <figure><img src="/images/satellite/kagaku03.jpg" alt="手作りスピーカー"></figure>
                   </div>
                 </div>
               </li>
@@ -175,7 +175,7 @@
                     <p>■ 料金：300円（※常設展入場料も必要）</p>
                   </div>
                   <div class="img_wrap">
-                    <figure><img src="/images/satellite/kagaku04.jpg" alt="「回転楽器でメロディを奏でよう」"></figure>
+                    <figure><img src="/images/satellite/kagaku04.jpg" alt="回転楽器"></figure>
                   </div>
                 </div>
               </li>
@@ -254,7 +254,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/satellite/img_4.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/satellite/img_4.jpg" media="(min-width: 900px)">
-									<img src="/images/satellite/img_4.jpg" alt="" class="c-anim-up">
+									<img src="/images/satellite/img_4.jpg" alt="電子楽器写真" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -262,7 +262,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/satellite/img_5.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/satellite/img_5.jpg" media="(min-width: 900px)">
-									<img src="/images/satellite/img_5.jpg" alt="" class="c-anim-up">
+									<img src="/images/satellite/img_5.jpg" alt="シンセサイザー写真" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -270,7 +270,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/satellite/img_6.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/satellite/img_6.jpg" media="(min-width: 900px)">
-									<img src="/images/satellite/img_6.jpg" alt="" class="c-anim-up">
+									<img src="/images/satellite/img_6.jpg" alt="電子オルガン写真" class="c-anim-up">
 								</picture>
               </div>
             </div>

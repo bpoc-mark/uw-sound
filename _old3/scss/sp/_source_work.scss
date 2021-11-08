@@ -1,0 +1,349 @@
+/*==================================
+  Source Work
+==================================*/
+#Source_work main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 70px;
+      .container{
+        .row{
+          &:not(:last-child){
+            margin-bottom: 70px;
+          }
+          .col{
+            &:first-child{
+              width: 100%;
+              margin-bottom: 30px;
+              h4{
+                @include Ryo_Gothic(700);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 30px;
+              }
+              h3{
+                @include Ryo_Gothic(700);
+                font-size: 20px;
+                color: #0d0d0d;
+                line-height: 28px;
+                padding: 5px 0 15px;
+              }
+              p{
+                @include Ryo_Gothic(500);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 28.8px;
+                a{
+                  @include Ryo_Gothic(500);
+                  font-size: 16px;
+                  color: #0d0d0d;
+                  word-wrap: break-word;
+                  text-decoration: underline;
+                }
+              }
+            }
+            &:last-child{
+              width: 100%;
+              padding: 0 5px;
+              .swiper-pagination{
+                bottom: -20px;
+                .swiper-pagination-bullet{
+                  width: 6px;
+                  height: 6px;
+                }
+                .swiper-pagination-bullet-active{
+                  background: #0d0d0d;
+                }
+              }
+              .swiper-button-prev{
+                left: -17px;
+                &::after{
+                  font-size: 20px;
+                  color: #c3c3c3;
+                }
+              }
+              .swiper-button-next{
+                right: -17px;
+                &::after{
+                  font-size: 20px;
+                  color: #c3c3c3;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_2{
+    .wrapper{
+      .container{
+        h4{
+          border-top: 1px solid #191919;
+          @include Ryo_Gothic(700);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 30px;
+          padding: 45px 0 0;
+        }
+        h3{
+          @include Ryo_Gothic(700);
+          font-size: 20px;
+          color: #0d0d0d;
+          line-height: 28px;
+          padding: 5px 0 15px;
+        }
+        p{
+          @include Ryo_Gothic(500);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 28.8px;
+          margin-bottom: 35px;
+        }
+        .item_cont{
+          padding-bottom: 50px;
+          border-bottom: 1px solid #191919;
+          .row{
+            align-items: center;
+            &:not(:last-child){
+              margin-bottom: 40px;
+            }
+            .col{
+              &:first-child{
+                width: 100%;
+                margin-bottom: 15px;
+              }
+              &:last-child{
+                width: 100%;
+                h5{
+                  @include Ryo_Gothic(700);
+                  font-size: 19px;
+                  color: #0d0d0d;
+                  line-height: 28px;
+                  margin-bottom: 5px;
+                }
+                p{
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_3{
+    .wrapper{
+      padding-top: 50px;
+      padding-bottom: 20px;
+      .container{
+        .row{
+          &:not(:last-child){
+            margin-bottom: 70px;
+          }
+          &:nth-child(2){
+            margin-bottom: 50px;
+          }
+          &:nth-child(n+3){
+            padding-top: 40px;
+            margin-bottom: 50px;
+            border-top: 1px solid #191919;
+          }
+          .col{
+            &:first-child{
+              width: 100%;
+              margin-bottom: 30px;
+              h4{
+                @include Ryo_Gothic(700);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 30px;
+              }
+              h3{
+                @include Ryo_Gothic(700);
+                font-size: 20px;
+                color: #0d0d0d;
+                line-height: 28px;
+                padding: 5px 0 15px;
+              }
+              p{
+                @include Ryo_Gothic(500);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 28.8px;
+                a{
+                  @include Ryo_Gothic(500);
+                  font-size: 16px;
+                  color: #0d0d0d;
+                  word-wrap: break-word;
+                  text-decoration: underline;
+                }
+              }
+            }
+            &:last-child{
+              width: 100%;
+              padding: 0 5px;
+              .swiper-pagination{
+                bottom: -20px;
+                .swiper-pagination-bullet{
+                  width: 6px;
+                  height: 6px;
+                }
+                .swiper-pagination-bullet-active{
+                  background: #0d0d0d;
+                }
+              }
+              .swiper-button-prev{
+                left: -17px;
+                &::after{
+                  font-size: 20px;
+                  color: #c3c3c3;
+                }
+              }
+              .swiper-button-next{
+                right: -17px;
+                &::after{
+                  font-size: 20px;
+                  color: #c3c3c3;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_4{
+    .wrapper{
+      .container{
+        h4{
+          border-top: 1px solid #191919;
+          @include Ryo_Gothic(700);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 30px;
+          padding: 45px 0 0;
+          margin-bottom: 5px
+        }
+        h3{
+          @include Ryo_Gothic(700);
+          font-size: 20px;
+          color: #0d0d0d;
+          line-height: 28px;
+          padding: 5px 0 15px;
+        }
+        p{
+          @include Ryo_Gothic(500);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 28.8px;
+          // margin-bottom: 35px;
+          &.text-indent{
+            text-indent: -20px;
+            margin-left: 20px;
+          }
+          a{
+            @include Ryo_Gothic(500);
+            font-size: 16px;
+            color: #0d0d0d;
+            word-wrap: break-word;
+            text-decoration: underline;
+          }
+        }
+        .item_cont{
+          margin-top: 35px;
+          padding-bottom: 50px;
+          border-bottom: 1px solid #191919;
+          .row{
+            align-items: center;
+            &:not(:last-child){
+              margin-bottom: 40px;
+            }
+            .col{
+              &:first-child{
+                width: 100%;
+                margin-bottom: 15px;
+              }
+              &:last-child{
+                width: 100%;
+                h5{
+                  @include Ryo_Gothic(700);
+                  font-size: 19px;
+                  color: #0d0d0d;
+                  line-height: 28px;
+                  margin-bottom: 5px;
+                }
+                p{
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_5{
+    .wrapper{
+      padding-top: 50px;
+      padding-bottom: 60px;
+      .container{
+        .row{
+          .col{
+            &:first-child{
+              width: 100%;
+              order: 2;
+              ul{
+                li{
+                  &:not(:last-child){
+                    margin-bottom: 30px;
+                  }
+                  &:nth-child(n+2){
+                    p{
+                      margin-top: 5px;
+                    }
+                  }
+                  h4{
+                    @include Ryo_Gothic(700);
+                    font-size: 16px;
+                    color: #0d0d0d;
+                    line-height: 30px;
+                  }
+                  h3{
+                    margin-top: 5px;
+                    @include Ryo_Gothic(700);
+                    font-size: 20px;
+                    color: #0d0d0d;
+                    line-height: 30px;
+                  }
+                  p{
+                    margin-top: 10px;
+                    @include Ryo_Gothic(500);
+                    font-size: 16px;
+                    color: #0d0d0d;
+                    line-height: 28.8px;
+                    a{
+                      @include Ryo_Gothic(500);
+                      font-size: 16px;
+                      color: #0d0d0d;
+                      text-decoration: underline;
+                      word-wrap: break-word;
+                    }
+                  }
+                }
+              }
+            }
+            &:last-child{
+              width: 100%;
+              order: 1;
+              margin-bottom: 20px;
+            }
+          }
+        } 
+      }
+    }
+  }
+}

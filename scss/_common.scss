@@ -97,18 +97,26 @@ header {
             z-index: 1005;
             top: 40px;
             left: 40px;
+            a { background: url(../images/common/header_logo_w.svg) no-repeat 0 / contain;}
           }
         }
         .left{
           .txt_cont{
-            margin-right: 99px;
+            margin-right: 86px;
           }
           .menu{
             position: fixed;
             z-index: 1005;
             top: 40px;
             right: 40px;
+            .menu_txt {
+              width: 36px;
+              height: 8px;
+              background: url(../images/common/menu_txt2.svg) no-repeat 0 / contain;
+              margin-bottom: 6px;
+            }
             svg{
+              width: 52px;
               .cls-1{
                 stroke: #fff;
               }
@@ -123,15 +131,18 @@ header {
   }
   .header_inner{
     padding: 40px 40px 0;
+    transition: .3s;
     &.row{
       justify-content: space-between;
       .right{
         float: unset;
         .logo{
           a{
-            img{
-              width: 139px;
-            }
+            display: inline-block;
+            width: 139px;
+            height: 122px;
+            background: url(../images/common/header_logo.svg) no-repeat 0 / contain;
+            transition: .3s;
           }
         }
       }
@@ -140,33 +151,12 @@ header {
         display: flex;
         justify-content: flex-end;
         .txt_cont{
-          margin-right: 40px;
+          margin-right: 30px;
           width: 335px;
-          p{
-            @include Futura_PT(600);
-            color: #000;
-            letter-spacing: 0;
-            line-height: 25px;
-            &:nth-of-type(1){
-              font-size: 32px;
-              span{
-                font-size: 20px;
-                &:nth-of-type(3){
-                  background-color: #000000;
-                  color: #fff;
-                  padding: 0 25px 0 5px;
-                  position: relative;
-                  top: -5px;
-                }
-              }
-            }
-            &:nth-of-type(2){
-              font-size: 18px;
-            }
-          }
         }
         .menu{
           cursor: pointer;
+          transition: .3s;
           &:hover{
             span{
               svg{
@@ -174,22 +164,27 @@ header {
               }
             }
           }
+          .menu_txt {
+            width: 35px;
+            height: 9px;
+            background: url(../images/common/menu_txt1.svg) no-repeat 0 / contain;
+            margin: 0 auto 4px;
+          }
           span{
             display: block;
             position: relative;
-            width: 59px;
-            height: 55px;
             overflow: hidden;
-            img{
-              width: 59px;
-            }
             svg{
+              width: 53px;
               transform: rotate(90deg);
-
               transform: none;
               .cls-1{
                 stroke: #000;
+                fill: none;
               }
+              &.menu_icon .cls-1 { stroke-width: 13.72px;}
+              &.menu_icon2 .cls-1 { stroke-width: 7.94px;}
+
               // animation: goup 10s infinite linear;
               // animation-timing-function: linear;
               // transform: rotate(-90deg);
@@ -372,20 +367,11 @@ header {
                     font-size: 20px;
                     color: #fff;
                     position: relative;
+                    background: linear-gradient(#484848, #484848) no-repeat 0 100% / 0 1px;
+                    padding-bottom: 5px;
+
                     &:hover{
-                      &::after{
-                        width: 100%;
-                      }
-                    }
-                    &::after{
-                      content: "";
-                      position: absolute;
-                      bottom: -5px;
-                      left: 0;
-                      transition: .2s linear;
-                      width: 0;
-                      height: 1px;
-                      background-color: #5c5c5c;
+                      background-size: 100% 1px;
                     }
                   }
                 }
@@ -480,6 +466,51 @@ header {
       0% {transform: rotate(0deg);}
     
       100% {transform: rotate(720deg);}
+    }
+  }
+
+  &.scroll {
+    .header_inner{
+      padding: 22px 40px 12px;
+      background: #fff;
+
+      &.row{
+        .right{
+          .logo{
+            a{
+              width: 313px;
+              height: 46px;
+              background: url(../images/common/header_logo2.svg) no-repeat 0 / contain;
+            }
+          }
+        }
+        .left{
+          .txt_cont{
+            width: 291px;
+          }
+          .menu{
+         
+          }
+        }
+      }
+    }
+
+    &.active {
+      .header_inner{
+        &.row{
+          .right{
+            .logo{
+              top: 22px;
+              a{ background: url(../images/common/header_logo2_w.svg) no-repeat 0 / contain;}
+            }
+          }
+          .left{
+            .menu{
+              top: 22px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -600,26 +631,15 @@ footer {
                     color: #fff;
                     @include Ryo_Gothic(500);
                     font-size: 15px;
-                    
-                    position: relative;
+                    padding-bottom: 3px;
+                    background: linear-gradient(#484848, #484848) no-repeat 0 100% / 0 1px;
+
                     span{
                       @include Futura_PT(600);
                       font-size: 15px;
                     }
                     &:hover{
-                      &::after{
-                        width: 100%;
-                      }
-                    }
-                    &::after{
-                      content: "";
-                      width: 0;
-                      height: 1px;
-                      background-color: #484848;
-                      transition: .3s ease;
-                      position: absolute;
-                      bottom: -10px;
-                      left: 0;
+                      background-size: 100% 1px;
                     }
                   }
                 }

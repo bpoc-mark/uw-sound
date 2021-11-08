@@ -1,0 +1,163 @@
+/*==================================
+  Workshop Detail
+==================================*/
+#Workshop_detail main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 120px;
+      .container{
+        .post_cat{
+          margin: 0 0 10px;
+          span{
+            @include Ryo_Gothic(500);
+            font-size: 12px;
+            color: #fff;
+            background-color: #191919;
+            padding: 3px 6px;
+          }
+        }
+        .post_sub_head{
+          @include Ryo_Gothic(500);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 25px;
+          margin: 0 0 10px;
+        }
+        .post_title{
+          @include Ryo_Gothic(700);
+          font-size: 20px;
+          color: #0d0d0d;
+          line-height: 25px;
+          border-bottom: 1px solid #191919;
+          padding-bottom: 25px;
+          margin: 0 0 50px;
+        }
+        .info_cont{
+          position: relative;
+          display: flex;
+          flex-wrap: unset;
+          justify-content: space-between;
+          .left{
+            float: unset;
+            width: 57%;
+            .content{
+              .event_cont{
+                margin-bottom: 30px;
+                p{
+                  @include Ryo_Gothic(500);
+                  font-size: 16px;
+                  color: #0d0d0d;
+                  line-height: 40px;
+                  text-indent: -90px;
+                  margin-left: 90px;
+                }
+              }
+              p{
+                @include Ryo_Gothic(500);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 40px;
+              }
+            }
+            .app_cont{
+              padding-top: 70px;
+              h4{
+                @include Ryo_Gothic(700);
+                font-size: 20px;
+                line-height: 30px;
+                color: #0d0d0d;
+                margin-bottom: 25px;
+              }
+              .row{
+                align-items: center;
+                padding: 15px 0;
+                border-top: 1px solid #d1d1d1;
+                &:last-child{
+                  border-bottom: 1px solid #d1d1d1;
+                }
+                .col{
+                  &:nth-of-type(1){
+                    width: 18%;
+                    text-align: center;
+                  }
+                  &:nth-of-type(2){
+                    width: 50%;
+                    padding-left: 15px;
+                  }
+                  &:nth-of-type(3){
+                    width: 32%;
+                    padding-right: 3px
+                  }
+                  &.c {
+                    text-align: center;
+                  }
+                  p{
+                    @include Ryo_Gothic(500);
+                    font-size: 16px;
+                    color: #0d0d0d;
+                  }
+                  a{
+                    box-sizing: border-box;
+                    display: block;
+                    width: 100%;
+                    border: 1px solid #cbcbcb;
+                    padding: 15px;
+                    text-align: center;
+                    @include Ryo_Gothic(700);
+                    font-size: 16px;
+                    // transition: .3s ease-in-out;
+                    // &:hover{
+                    //   background-color: #cbcbcb;
+                    // }
+                  }
+                }
+              }
+            }
+          }
+          .right{
+            float: unset;
+            width: 37%;
+            .img_cont{
+              li{
+                width: 100%;
+                &:not(:last-child){
+                  margin-bottom: 10px;
+                }
+                img{
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+        .btn_cont{
+          a{
+            display: block;
+            margin: 85px auto 0;
+            width: 260px;
+            padding: 20px 25px;
+            box-sizing: border-box;
+            border: 1px solid #cbcbcb;
+            position: relative;
+            @include Ryo_Gothic(700);
+            font-size: 16px;
+            .svg_cont{
+              width: 17px;
+              position: absolute;
+              top: 50%;
+              right: 20px;
+              transform: translate(0, -50%);
+              overflow: hidden;
+              svg{
+                width: 100%;
+                height: 100%;
+                transform: translateX(0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

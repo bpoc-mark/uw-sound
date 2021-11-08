@@ -11,107 +11,11 @@
     }
   }
 
-  .sect_2{
-    .wrapper{
-      padding-top: 110px;
-      padding-bottom: 160px;
-      .container{
-        .txt_header{
-          margin-bottom: 40px;
-          figure {
-            width: 278px;
-            margin: auto;
-          }
-        }
-        .row{
-          .col{
-            width: 50%;
-            &:first-child{
-              display: flex;
-              justify-content: flex-end;
-              padding-right: 80px;
-              p{
-                margin-top: -50px;
-                @include Ryo_Gothic(600);
-                font-size: 40px;
-                color: #0d0d0d;
-                line-height: 80px;
-                text-orientation: mixed;
-                writing-mode: vertical-rl; 
-                span{
-                  border-right: 1px solid #000;
-                  padding-right: 5px;
-                }
-              }
-            }
-            &:last-child{
-              padding: 0 10px;
-              p{
-                font-size: 16px;
-                color: #0d0d0d;
-                line-height: 41.6px;
-                text-align: left;
-                margin-bottom: 50px;
-              }
-              a{
-                @include Ryo_Gothic(700);
-                font-size: 16px;
-                display: block;
-                width: 400px;
-                padding: 21px;
-                box-sizing: border-box;
-                position: relative;
-                transition: .3s linear;
-                // &:hover{
-                //   color: #fff;
-                //   &::after{
-                //     width: 100%;
-                //   }
-                //   svg{
-                //     .cls-2{
-                //       stroke: #fff;
-                //       transition-delay: .3s;
-                //     }
-                //   }
-                // }
-                &::after{
-                  content: "";
-                  display: block;
-                  width: 0;
-                  height: 100%;
-                  background-color: #0d0d0d;
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  z-index: -1;
-                  transition: .3s linear;
-                }
-                .svg_cont{
-                  width: 17px;
-                  position: absolute;
-                  top: 50%;
-                  right: 20px;
-                  transform: translate(0, -50%);
-                  overflow: hidden;
-                  svg{
-                    width: 100%;
-                    height: 100%;
-                    transform: translateX(0);
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
   .sect_3{
     .wrapper{
       position: relative;
       padding-left: 100px;
-      padding-bottom: 250px;
+      margin-top: 120px;
       @media only screen and (max-width: 1300px) {
         padding-left: 50px;
       }
@@ -183,7 +87,7 @@
       .swiper-button-prev , .swiper-button-next {
         width: 20px;
         height: 32px;
-        top: 31%;
+        top: 47%;
 
         &::after {
           content: '';
@@ -202,6 +106,102 @@
       }
       .swiper-button-next{
         right: 5%;
+      }
+    }
+  }
+
+  .sect_2{
+    .wrapper{
+      padding-top: 140px;
+      padding-bottom: 205px;
+      .container{
+        .txt_header{
+          margin-bottom: 40px;
+          figure {
+            width: 278px;
+            margin: auto;
+          }
+        }
+        .row{
+          .col{
+            width: 50%;
+            &:first-child{
+              display: flex;
+              justify-content: flex-end;
+              padding-right: 80px;
+              p{
+                margin-top: -37px;
+                @include Ryo_Gothic(600);
+                font-size: 40px;
+                color: #0d0d0d;
+                line-height: 80px;
+                text-orientation: mixed;
+                writing-mode: vertical-rl; 
+                span{
+                  border-right: 1px solid #000;
+                  padding-right: 5px;
+                }
+              }
+            }
+            &:last-child{
+              padding: 0 10px;
+              p{
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 41.6px;
+                text-align: left;
+                margin-bottom: 50px;
+              }
+              a{
+                @include Ryo_Gothic(700);
+                font-size: 16px;
+                display: block;
+                width: 400px;
+                padding: 21px;
+                box-sizing: border-box;
+                position: relative;
+                transition: .3s linear;
+                // &:hover{
+                //   color: #fff;
+                //   &::after{
+                //     width: 100%;
+                //   }
+                //   svg{
+                //     .cls-2{
+                //       stroke: #fff;
+                //       transition-delay: .3s;
+                //     }
+                //   }
+                // }
+                &::after{
+                  content: "";
+                  display: block;
+                  width: 0;
+                  height: 100%;
+                  background-color: #0d0d0d;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: -1;
+                  transition: .3s linear;
+                }
+                .svg_cont{
+                  width: 17px;
+                  position: absolute;
+                  top: 50%;
+                  right: 20px;
+                  transform: translate(0, -50%);
+                  overflow: hidden;
+                  svg{
+                    width: 100%;
+                    height: 100%;
+                    transform: translateX(0);
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -1,0 +1,113 @@
+/*==================================
+  Global
+==================================*/
+#Global main {
+  
+  .sect_1 {
+    background-color: #000;
+    padding-top: 35px;
+
+    .row {
+      flex-direction: column-reverse;
+
+      picture {
+        margin: 25px 32px 0;
+      }
+      .col {
+        p {
+          color: #fff;
+          line-height: 32px;
+          text-align: justify;
+        }
+        dl {
+          margin-top: 20px;
+          dt {
+            position: relative;
+            line-height: 1;
+            margin-bottom: 17px;
+            &::before {
+              content: '';
+              display: inline-block;
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              background-color: #fff;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+            }
+            span {
+              font-size: 19px;
+              position: relative;
+              color: #fff;
+              background-color: #000;
+              padding-right: 10px;
+            }
+          }
+          dd {
+            color: #fff;
+            text-align: justify;
+            line-height: 32px;
+            &.indent {
+              font-size: 17px;
+              text-indent: -22px;
+              margin-left: 22px;
+              &:nth-of-type(2) { margin-bottom: 10px;}
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_2{
+    background-color: #000000;
+    .wrapper{
+      padding-top: 170px;
+      padding-bottom: 60px;
+      background-image: url(../images/global/sp/bg_img.jpg);
+      background-size: cover;
+      background-position: center 0;
+      background-repeat: no-repeat;
+      .container{
+        .row{
+          .col{
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            h3{
+              width: 45%;
+              @include Futura_PT(700);
+              font-size: 30px;
+              color: #fff;
+              max-width: 360px;
+              position: relative;
+              &::after{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                bottom: -20px;
+                right: 0;
+              }
+            }
+            picture{
+              width: 55%;
+            }
+            p{
+              margin-top: 30px;
+              width: 100%;
+              color: #fff;
+              line-height: 32px;
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}

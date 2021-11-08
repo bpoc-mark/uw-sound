@@ -1,0 +1,58 @@
+/*==================================
+  Event
+==================================*/
+#Event main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 75px;
+      .container{
+        .row{
+          &:not(:last-child){
+            border-bottom: 1px solid #191919;
+            padding-bottom: 45px;
+            margin-bottom: 50px;
+          }
+          .col{
+            &:first-child{
+              width: 100%;
+              margin-bottom: 25px;
+              img{
+                width: 100%;
+              }
+            }
+            &:last-child{
+              width: 100%;
+              h3{
+                @include Ryo_Gothic(700);
+                font-size: 20px;
+                color: #0d0d0d;
+                line-height: 32px;
+                margin-bottom: 15px;
+              }
+              .event_info{
+                margin-bottom: 15px;
+                p{
+                  @include Ryo_Gothic(500);
+                  font-size: 16px;
+                  color: #0d0d0d;
+                  line-height: 28.5px;
+                }
+              }
+              p{
+                @include Ryo_Gothic(500);
+                font-size: 16px;
+                color: #0d0d0d;
+                line-height: 32px;
+                a{
+                  @include Ryo_Gothic(500);
+                  font-size: 16px;
+                  color: #0d0d0d;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

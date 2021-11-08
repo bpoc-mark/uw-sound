@@ -70,40 +70,6 @@
                 	</div>
 				</div>
 			</section>
-			<section class="sect_2">
-				<div class="wrapper">
-					<div class="container">
-						<div class="txt_header">
-							<figure>
-								<img class="pc" src="/images/top/section_2/oto.svg" alt="サウンドデザインフェスティバルin浜松2021">
-								<img class="sp" src="/images/top/section_2/oto_sp.svg" alt="サウンドデザインフェスティバルin浜松2021">
-							</figure>
-						</div>
-						<div class="row">
-							<div class="col">
-								<p class="c-anim-up">
-									<span>と創る</span><br>
-									<span>コミュニ</span><br>
-									<span>ケーション</span><br>
-									<span>のカタチ</span>
-								</p>
-							</div>
-							<div class="col">
-								<p class="c-anim-up"><span class="sp">音</span>を通してつながるコミュニケーション。<br>
-									モノと人、時間と空間、ローカルとリモート、自然と人工、<br class="pc">過去と今、今と未来、そして音と人。<br>
-									つなげるモノは想像次第、つなげるカタチも創造次第。<br>
-									様々なコミュニケーションのカタチに出逢う<br>
-									サウンドデザインフェスティバル in 浜松2021。</p>
-								<a href="/sdf/" class="link_btn c-anim-up">サウンドデザイン<br class="sp">フェスティバルとは？
-									<div class="svg_cont">
-									<svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 			<section class="sect_3">
 				<div class="wrapper">
 					<div class="txt_header c-anim-up">
@@ -177,6 +143,47 @@
 					</div>
 				</div>
 			</section>
+			<section class="sect_2">
+				<div class="wrapper">
+					<div class="container">
+						<div class="txt_header">
+							<figure>
+								<img class="pc" src="/images/top/section_2/oto.svg" alt="サウンドデザインフェスティバルin浜松2021">
+								<img class="sp" src="/images/top/section_2/oto_sp.svg" alt="サウンドデザインフェスティバルin浜松2021">
+							</figure>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p class="c-anim-up">
+									<span>と創る</span><br>
+									<span>コミュニ</span><br>
+									<span>ケーション</span><br>
+									<span>のカタチ</span>
+								</p>
+							</div>
+							<div class="col">
+								<p class="c-anim-up"><span class="sp">音</span>を通してつながるコミュニケーション。<br>
+									モノと人、時間と空間、ローカルとリモート、自然と人工、<br class="pc">過去と今、今と未来、そして音と人。<br>
+									つなげるモノは想像次第、つなげるカタチも創造次第。<br>
+									様々なコミュニケーションのカタチに出逢う<br>
+									サウンドデザインフェスティバル in 浜松2021。</p>
+								<a href="/sdf/" class="link_btn c-anim-up">サウンドデザイン<br class="sp">フェスティバルとは？
+									<div class="svg_cont">
+										<!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648.06 392.58">
+											<defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:50px;}</style></defs>
+											<path class="cls-1" d="M616.23,2379.81H660s52.53,4.44,78.64-80.17c27.92-90.46,121.28-152.93,178.72,3.32,62,168.54,85.45,248.59,147.41,247.09s81.36-71.49,100-111.51c20.86-44.8,29.87-57.43,99.57-57.43" transform="translate(-616.23 -2182.49)"/>
+										</svg> -->
+										<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+											<path class="svg_btn" d="" stroke="" stroke-width="64" fill="none" />
+										</svg>
+										<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="sect_4">
 				<div class="wrapper">
 					<div class="container">
@@ -187,18 +194,21 @@
 							</div>
 							<div class="col c-anim-up">
 								<a href="https://www.youtube.com/channel/UCC3ltT2lGbSh54CF8rqJrbw" target="_blank">
-									<img class="pc" src="/images/top/section_4/1.jpg" alt="">
-									<img class="sp" src="/images/top/section_4/1_sp.jpg" alt="">
+									<img class="pc" src="/images/top/section_4/1.jpg" alt="SDF2021 Youtubeチャンネル">
+									<img class="sp" src="/images/top/section_4/1_sp.jpg" alt="SDF2021 Youtubeチャンネル">
 								</a>
 							</div>
 							<div class="col">
 								<ul class="c-anim-up">
 									<li>
 										<a class="link_btn" href="https://www.youtube.com/channel/UCC3ltT2lGbSh54CF8rqJrbw" target="_blank">
-											<span>SFD2021 <br class="pc">Youtube</span>
+											<span>SDF2021 <br class="pc">Youtube</span>
 											チャンネル
 											<div class="svg_cont">
-											<svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+													<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
+												</svg>
+												<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
 											</div>
 										</a>
 									</li>
@@ -207,7 +217,10 @@
 											動画配信<br class="pc">
 											スケジュール
 											<div class="svg_cont">
-											<svg class="btn_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956.29 610.64" ><path d="" transform="translate(-21.86 -20.32)"/></svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 400" >
+													<path class="svg_btn" d="" stroke="#000" stroke-width="64" fill="none" />
+												</svg>
+												<!-- <svg class="btn_layer" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.4 41.57"><defs><style>.btn_layer{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:8px;}</style></defs><path class="btn_layer" d="M468.21,138.29s5-17,8-21.8,8.45-6.58,13.8,0c4.38,5.38,5.41,14.63,6.17,17.23s3.45,12.05,10.51,12S517,134.56,518,131.56s3.4-15.16,9.62-18.85c3.79-2.24,10.84.76,14.33,13.35,1.72,6.22,2.38,15.39,9.36,19.15,1.45.78,5.64,1.61,9.4-3.33s5.25-11.87,5.52-13" transform="translate(-464.37 -108.03)"/></svg> -->
 											</div>
 										</a>
 									</li>

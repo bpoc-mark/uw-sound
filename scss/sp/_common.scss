@@ -58,10 +58,6 @@ header {
   background: transparent;
   width: 100%;
   transition: .3s ease-in-out;
-  &.scroll{
-    background-color: #fff;
-    padding-bottom: 10px;
-  }
   &.active{
     .header_inner{
       &.row{
@@ -69,18 +65,24 @@ header {
         .right{
           position: fixed;
           z-index: 1005;
-          top: 22.5px;
+          top: 15px;
           left: 15px;
+          .logo a { background: url(../images/common/header_logo_w.svg) no-repeat 0 / contain;}
         }
         .left{
           .txt_cont{
-            margin-right: 57px;
+            margin-right: 44px;
           }
           .menu{
             position: fixed;
             z-index: 1005;
-            top: 22.5px;
-            right: 15px;
+            top: 15px;
+            right: 10px;
+            .menu_txt {
+              width: 28px;
+              height: 6px;
+              background: url(../images/common/menu_txt2.svg) no-repeat 0 / contain;
+            }
             svg{
               .cls-1{
                 stroke: #fff;
@@ -95,9 +97,11 @@ header {
     }
   }
   .header_inner{
-    padding: 22.5px 15px 0;
+    padding: 15px 10px 0 15px;
     &.row{
       justify-content: space-between;
+      align-items: flex-start;
+      
       .right{
         float: unset;
         width: 85px;
@@ -105,9 +109,14 @@ header {
           width: 15%;
         }
         .logo{
+          margin-top: 8px;
+          transition: .3s;
           a{
-            img{
-            }
+            display: inline-block;
+            width: 87px;
+            height: 76px;
+            background: url(../images/common/header_logo.svg) no-repeat 0 / contain;
+            transition: 0s;
           }
         }
       }
@@ -116,42 +125,37 @@ header {
         display: flex;
         justify-content: flex-end;
         .txt_cont{
-          margin-right: 20px;
+          margin-right: 10px;
+          margin-top: 8px;
           width: 43.33vw;
         }
         .menu{
           cursor: pointer;
-          &:hover{
-            span{
-              svg{
-                animation: unset;
-                .cls-1{
-                  animation: unset;
-                  stroke-dashoffset: 0;
-                  stroke-dasharray: 560;
-                }
-                .cls-1-1{
-                  animation: unset;
-                  opacity: 0;
-                  stroke-dashoffset: 0;
-                  stroke-dasharray: 560;
-                }
-              }
-            }
+          .menu_txt {
+            width: 27px;
+            height: 6px;
+            background: url(../images/common/menu_txt1.svg) no-repeat 0 / contain;
+            margin: 0 auto 4px;
           }
           span{
             display: block;
             position: relative;
-            width: 37px;
-            height: 37px;
+            width: 34px;
             overflow: hidden;
             svg{
               transform: rotate(90deg);
+              width: 34px;
+              margin: auto;
 
               transform: none;
               .cls-1{
                 stroke: #000;
+                fill: none;
               }
+
+              &.menu_icon .cls-1 { stroke-width: 13.72px;}
+              &.menu_icon2 .cls-1 { stroke-width: 7.94px;}
+
               // animation: goup 10s infinite linear;
               // animation-timing-function: linear;
             }
@@ -445,6 +449,45 @@ header {
       0% {transform: rotate(0deg);}
     
       100% {transform: rotate(720deg);}
+    }
+  }
+
+  
+  &.scroll {
+    .header_inner{
+      background: #fff;
+      padding: 15px 10px 8px;
+
+      &.row{
+        .right{
+          .logo{
+            margin-top: 4px;
+            a{
+              width: 196px;
+              height: 28px;
+              background: url(../images/common/header_logo2.svg) no-repeat 0 / contain;
+            }
+          }
+        }
+        .left{
+          .txt_cont{
+            display: none;
+          }
+        }
+      }
+    }
+
+    &.active {
+      .header_inner{
+        &.row{
+          .right{
+            left: 10px;
+            .logo{
+              a{ background: url(../images/common/header_logo2_w.svg) no-repeat 0 / contain;}
+            }
+          }
+        }
+      }
     }
   }
 }

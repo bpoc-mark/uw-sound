@@ -56,7 +56,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/access/img_1.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/access/img_1.jpg" media="(min-width: 900px)">
-									<img src="/images/access/img_1.jpg" alt="" class="c-anim-up">
+									<img src="/images/access/img_1.jpg" alt="アクトシティ展示イベントホール写真" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -83,7 +83,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/access/img_2.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/access/img_2.jpg" media="(min-width: 900px)">
-									<img src="/images/access/img_2.jpg" alt="" class="c-anim-up">
+									<img src="/images/access/img_2.jpg" alt="浜松科学館写真" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">
@@ -110,7 +110,7 @@
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 									<source srcset="/images/access/img_3.jpg" media="(max-width: 899px)" type="image/webp">
 									<source srcset="/images/access/img_3.jpg" media="(min-width: 900px)">
-									<img src="/images/access/img_3.jpg" alt="" class="c-anim-up">
+									<img src="/images/access/img_3.jpg" alt="浜松市楽器博物館写真" class="c-anim-up">
 								</picture>
               </div>
               <div class="col">

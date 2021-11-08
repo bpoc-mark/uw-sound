@@ -40,7 +40,7 @@
                 <a href="/sdf/">サウンドデザインフェスティバルとは？</a>
               </li>
             </ul>
-            <h3>サウンドデザインフェスティバルとは？</h3>
+            <h3>サウンドデザイン<br class="sp">フェスティバルとは？</h3>
               <p>
                 <img src="/images/common/lower_pg_img.svg" alt="">
               </p>
@@ -80,19 +80,19 @@
         <div class="wrapper">
           <div class="row">
             <div class="col c-anim-up">
-              <img src="/images/sdf/img_1.jpg" alt="">
+              <img src="/images/sdf/img_1.jpg" alt="SDF2021イメージ写真">
             </div>
             <div class="col c-anim-up">
-              <img src="/images/sdf/img_2.jpg" alt="">
+              <img src="/images/sdf/img_2.jpg" alt="SDF2021イメージ写真">
             </div>
             <div class="col c-anim-up">
-              <img src="/images/sdf/img_3.jpg" alt="">
+              <img src="/images/sdf/img_3.jpg" alt="SDF2021イメージ写真">
             </div>
             <div class="col c-anim-up">
-              <img src="/images/sdf/img_4.jpg" alt="">
+              <img src="/images/sdf/img_4.jpg" alt="SDF2021イメージ写真">
             </div>
             <div class="col c-anim-up">
-              <img src="/images/sdf/img_5.jpg" alt="">
+              <img src="/images/sdf/img_5.jpg" alt="SDF2021イメージ写真">
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@
             <h3 class="c-anim-up">MESSAGE</h3>
             <div class="row">
               <div class="col">
-                <img src="/images/sdf/msg_1.jpg" alt="" class="c-anim-up">
+                <img src="/images/sdf/msg_1.jpg" alt="鈴木 康友" class="c-anim-up">
               </div>
               <div class="col">
                 <h4 class="c-anim-up"><span>浜松市長</span><span class="pc">　</span><br class="sp">鈴木 康友</h4>
@@ -208,7 +208,7 @@
           <div class="container">
             <div class="row">
               <div class="col c-anim-up">
-                <img src="/images/sdf/msg_2.jpg" alt="">
+                <img src="/images/sdf/msg_2.jpg" alt="伊藤 修二">
               </div>
               <div class="col">
                 <h4 class="c-anim-up">

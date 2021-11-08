@@ -1,0 +1,112 @@
+/*==================================
+  Global
+==================================*/
+#Global main {
+
+  .sect_1 {
+    background-color: #000;
+    padding-top: 95px;
+
+    .row {
+      justify-content: space-between;
+
+      picture {
+        width: 31.67%;
+      }
+      .col {
+        width: 60.58%;
+        p {
+          color: #fff;
+          line-height: 40px;
+        }
+        dl {
+          margin-top: 40px;
+          dt {
+            position: relative;
+            line-height: 1;
+            margin-bottom: 17px;
+            &::before {
+              content: '';
+              display: inline-block;
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              background-color: #fff;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+            }
+            span {
+              font-size: 20px;
+              position: relative;
+              color: #fff;
+              background-color: #000;
+              padding-right: 10px;
+            }
+          }
+          dd {
+            color: #fff;
+            line-height: 1.5;
+            &.indent {
+              font-size: 18px;
+              text-indent: -22px;
+              margin-left: 22px;
+              margin-bottom: 6px;
+              &:nth-of-type(2) { margin-bottom: 20px;}
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_2{
+    background-color: #000000;
+    .wrapper{
+      padding-top: 130px;
+      padding-bottom: 130px;
+      background-image: url(../images/global/bg_img.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      .container{
+        .row{
+          .col{
+            max-width: 635px;
+            h3{
+              @include Futura_PT(700);
+              font-size: 30px;
+              color: #fff;
+              padding: 80px 0 70px;
+              max-width: 360px;
+              position: relative;
+              &::after{
+                content: "";
+                display: block;
+                width: 65%;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                top: 53%;
+                right: -31px;
+                transform: translate(0, -50%);
+              }
+            }
+            picture{
+              float: right;
+              max-width: 260px;
+              margin-left: 40px;
+              margin-top: -180px;
+            }
+            p{
+              font-size: 16px;
+              color: #fff;
+              line-height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

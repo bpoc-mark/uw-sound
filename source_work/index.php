@@ -71,7 +71,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_1/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_1/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_1/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_1/img_1.jpg" alt="ギターとともに暮らすための家具">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -79,7 +79,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_1/img_2.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_1/img_2.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_1/img_2.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_1/img_2.jpg" alt="ギターとともに暮らすための家具">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -87,7 +87,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_1/img_3.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_1/img_3.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_1/img_3.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_1/img_3.jpg" alt="ギターとともに暮らすための家具">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -95,7 +95,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_1/img_4.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_1/img_4.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_1/img_4.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_1/img_4.jpg" alt="ギターとともに暮らすための家具">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -103,7 +103,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_1/img_5.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_1/img_5.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_1/img_5.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_1/img_5.jpg" alt="ギターとともに暮らすための家具">
                       </picture>
                     </div>
                   </div>
@@ -136,7 +136,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_2/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_2/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_2/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_2/img_1.jpg" alt="誰でもピアノ">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -144,7 +144,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_1_row_2/img_2.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_1_row_2/img_2.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_1_row_2/img_2.jpg" alt="">
+                        <img src="/images/source_work/sect_1_row_2/img_2.jpg" alt="誰でもピアノ">
                       </picture>
                     </div>
                   </div>
@@ -170,7 +170,7 @@
             <div class="item_cont">
               <div class="row">
                 <div class="col">
-                  <img src="/images/source_work/sect_2_img_1.jpg" alt="" class="c-anim-up">
+                  <img src="/images/source_work/sect_2_img_1.jpg" alt="クリスタルグランドピアノ" class="c-anim-up">
                 </div>
                 <div class="col">
                   <h5 class="c-anim-up">クリスタルグランドピアノ</h5>
@@ -182,7 +182,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <img src="/images/source_work/sect_2_img_2.jpg" alt="" class="c-anim-up">
+                  <img src="/images/source_work/sect_2_img_2.jpg" alt="クリスタルミニグランドピアノ" class="c-anim-up">
                 </div>
                 <div class="col">
                   <h5 class="c-anim-up">クリスタルミニグランドピアノ</h5>
@@ -216,7 +216,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_1/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_1/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_1/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_1/img_1.jpg" alt="Facet Grand Piano">
                       </picture>
                     </div>
                   </div>
@@ -247,7 +247,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_2/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_2/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_2/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_2/img_1.jpg" alt="生活を豊かにする電子楽器">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -255,7 +255,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_2/img_2.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_2/img_2.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_2/img_2.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_2/img_2.jpg" alt="生活を豊かにする電子楽器">
                       </picture>
                     </div>
                   </div>
@@ -289,7 +289,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_3/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_3/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_3/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_3/img_1.jpg" alt="楽器と音の出るおもちゃ">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -297,7 +297,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_3/img_2.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_3/img_2.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_3/img_2.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_3/img_2.jpg" alt="楽器と音の出るおもちゃ">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -305,7 +305,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_3/img_3.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_3/img_3.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_3/img_3.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_3/img_3.jpg" alt="楽器と音の出るおもちゃ">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -313,7 +313,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_3/img_4.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_3/img_4.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_3/img_4.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_3/img_4.jpg" alt="楽器と音の出るおもちゃ">
                       </picture>
                     </div>
                   </div>
@@ -346,7 +346,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_4/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_4/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_4/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_4/img_1.jpg" alt="R-MONO Lab楽器">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -354,7 +354,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_4/img_2.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_4/img_2.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_4/img_2.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_4/img_2.jpg" alt="R-MONO Lab楽器">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -362,7 +362,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_4/img_3.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_4/img_3.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_4/img_3.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_4/img_3.jpg" alt="R-MONO Lab楽器">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -370,7 +370,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_4/img_4.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_4/img_4.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_4/img_4.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_4/img_4.jpg" alt="R-MONO Lab楽器">
                       </picture>
                     </div>
                   </div>
@@ -404,7 +404,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_5/img_1.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_5/img_1.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_5/img_1.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_5/img_1.jpg" alt="モノオトで演奏する楽器Buonda">
                       </picture>
                     </div>
                     <div class="swiper-slide">
@@ -412,7 +412,7 @@
                       <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                         <source srcset="/images/source_work/sect_3_row_5/img_2.jpg" media="(max-width: 899px)" type="image/webp">
                         <source srcset="/images/source_work/sect_3_row_5/img_2.jpg" media="(min-width: 900px)">
-                        <img src="/images/source_work/sect_3_row_5/img_2.jpg" alt="">
+                        <img src="/images/source_work/sect_3_row_5/img_2.jpg" alt="モノオトで演奏する楽器Buonda">
                       </picture>
                     </div>
                   </div>
@@ -447,7 +447,7 @@
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                     <source srcset="/images/source_work/sect_4_img_1.jpg" media="(max-width: 899px)" type="image/webp">
                     <source srcset="/images/source_work/sect_4_img_1.jpg" media="(min-width: 900px)">
-                    <img src="/images/source_work/sect_4_img_1.jpg" alt="" class="c-anim-up">
+                    <img src="/images/source_work/sect_4_img_1.jpg" alt="ヘドバン君 with NTS-1" class="c-anim-up">
                   </picture>
                 </div>
                 <div class="col">
@@ -463,7 +463,7 @@
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                     <source srcset="/images/source_work/sect_4_img_2.jpg" media="(max-width: 899px)" type="image/webp">
                     <source srcset="/images/source_work/sect_4_img_2.jpg" media="(min-width: 900px)">
-                    <img src="/images/source_work/sect_4_img_2.jpg" alt="" class="c-anim-up">
+                    <img src="/images/source_work/sect_4_img_2.jpg" alt="貧乏ゆすリズム" class="c-anim-up">
                   </picture>
                 </div>
                 <div class="col">
@@ -479,7 +479,7 @@
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                     <source srcset="/images/source_work/sect_4_img_3.jpg" media="(max-width: 899px)" type="image/webp">
                     <source srcset="/images/source_work/sect_4_img_3.jpg" media="(min-width: 900px)">
-                    <img src="/images/source_work/sect_4_img_3.jpg" alt="" class="c-anim-up">
+                    <img src="/images/source_work/sect_4_img_3.jpg" alt="ソルダリングシンセサイザー" class="c-anim-up">
                   </picture>
                 </div>
                 <div class="col">
@@ -523,8 +523,133 @@
                 <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                   <source srcset="/images/source_work/sect_5_img_1.jpg" media="(max-width: 899px)" type="image/webp">
                   <source srcset="/images/source_work/sect_5_img_1.jpg" media="(min-width: 900px)">
-                  <img src="/images/source_work/sect_5_img_1.jpg" alt="" class="c-anim-up">
+                  <img src="/images/source_work/sect_5_img_1.jpg" alt="茶っとCHATでシンギング" class="c-anim-up">
                 </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sect_6">
+        <div class="wrapper">
+          <div class="container">
+            <h4 class="c-anim-up">fff</h4>
+            <p class="c-anim-up">ミュージシャン、楽器メーカー技術者、美術高校教員、デザイナーなどで構成される<br class="pc">少しおバカな楽器のようなアート作品のような音の装置を作るグループです。<br>制作場所は主に鴨江アートセンターです。</p>
+            <ul class="history c-anim-up">
+              <li>
+                <span>2015年</span>
+                <span>鴨江アートセンターでの「アート×テクノロジーのチームづくりと育成事業」（主催：一般社団法人創造都市協議会）に参加したメンバーを元にグループを結成。「音響装置Bake'n Roll」を制作・発表。</span>
+              </li>
+              <li>
+                <span>2016年</span>
+                <span>鴨江アートセンターでの「アート×テクノロジーのチームづくりと育成事業2」（主催：一般社団法人創造都市協議会）にて「Band Graphone」を制作・ 発表。また同作品を「第４１回GOOD ART展」（京都市美術館）、「GUGEN2016」（秋葉原コンベンションホール）に出品。</span>
+              </li>
+              <li>
+                <span>2017年</span>
+                <span>「サウンドデザインフェスティバルin浜松2017」（主催：ユネスコ音楽都市はままつ推進事業実行委員会／浜松市）に「Band Graphone 2.0」を出品。</span>
+              </li>
+              <li>
+                <span>2018年</span>
+                <span>「Band Graphone 2.0」を「第４３回GOOD ART展」（京都市美術館別館）に出品。</span>
+              </li>
+              <li>
+                <span>2019年</span>
+                <span>「サウンドデザインファクトリーin浜松2019」（主催：はままつ響きの創造プロジェクト実行委員会／浜松市）に「Sound Pond」を出品。</span>
+              </li>
+              <li>
+                <span>2020年</span>
+                <span>「Sound Pond」を「第４４回GOOD ART展」（ギャラリーマロニエ京都）に出品。</span>
+              </li>
+            </ul>
+
+            <div class="item_cont">
+              <div class="row">
+                <div class="col">
+                  <picture >
+                  <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+                    <source srcset="/images/source_work/sect_6_img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                    <source srcset="/images/source_work/sect_6_img_1.jpg" media="(min-width: 900px)">
+                    <img src="/images/source_work/sect_6_img_1.jpg" alt="OTOKABE（仮）" class="c-anim-up">
+                  </picture>
+                </div>
+                <div class="col">
+                  <h5 class="c-anim-up">OTOKABE（仮）</h5>
+                  <p class="c-anim-up">
+                  壁にボールを当てて音を鳴らす楽器です。プレイヤーは装置の椅子に座ります。 目の前に溜まった沢山のボールを壁に投げ音を出します。壁にはたくさんのセンサーが取り付けてあります。投げたボールはまたプレイヤーの前に戻って来るの で無限にボールを投げ続ける事ができます。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sect_7">
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <ul>
+                  <li>
+                    <h4 class="c-anim-up">音と人ミミ島ウエヤマトモコ</h4>
+                    <h3 class="c-anim-up">days of sounds - もうひとつの</h3>
+                    <p class="c-anim-up">浜松で録音した日々の音と、小さな音を奏でるオブジェの音から様々な記臆を呼び起こすサウンドインタレーション作品。<br><br>観賞者の目の前には、小さな音を奏でるオブジェがあります。その周りでヘッドフォンを装着しそこから聴こえる音を聴くと、目に見えなかった音の情景が顕になります。<br>オブジェの動きから生まれる儚い音と、その様子から鑑賞者がイメージする情景と、ヘッドフォンから聴こえる音の情景とが絡まりあったりイメージの差異が生まれたりと、鑑賞者ごとの記臆を元に、それぞれの新しい物語と記録を創る、音で紡ぐ映像のない架空の物語のような作品です。<br>ヘッドフォンから聴こえる音は、作者が日々録音している浜松の音を元に構成している音声作品です。2020年のコロナ禍が拡大しはじめたころから録音しはじめ、何か特別な音というより遠くから届く輪郭のはっきりしない音、何かが様々に動いている”淡い音”です。<br>オブジェは、2019年に制作した緩衝材を使った作品「カンショウのすすめ」の作品を元に、新たに制作予定します。これらは、とても小さい音を奏でます。オブジェに近くと聴こえる程度です。このオブジェの音声は増幅されないので、オブジェの音そのものを聴きます。音を大きくするには、緩衝材の量を多くする必要があります。<br>今作品は、何気ない日々の淡い音と今そこで聴こえる音、増幅された音と増幅されずに聴こえる音の関係性から、鑑賞者は今そこにある世界と自分との関わりと、音を聴くことの面白さを再確認することになるはずです。さらに、日頃ゴミの様に扱われる緩衝材が綺麗な音を生み出すオブジェと録音された音から、何気ない日常の中に”隠れているかもしれないもう1つの面白い日常”を顕にする。という試みもこの作品には含まれています。</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <picture >
+                <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+                  <source srcset="/images/source_work/sect_7_img_1.jpg" media="(max-width: 899px)" type="image/webp">
+                  <source srcset="/images/source_work/sect_7_img_1.jpg" media="(min-width: 900px)">
+                  <img src="/images/source_work/sect_7_img_1.jpg" alt="days of sounds - もうひとつの" class="c-anim-up">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sect_3 sect_3_2">
+        <div class="wrapper">
+          <div class="container">
+            <div class="row c-anim-up">
+              <div class="col">
+                <h4 class="c-anim-up">MATHRAX</h4>
+                <h3 class="c-anim-up">いしのこえ、風と石</h3>
+                <p class="c-anim-up">
+                  MATHRAX（マスラックス）は、電気、光、音、香りなどを用いたオブジェやインスタレーションの制作を行う、久世祥三と坂本茉里子によるアートユニットです。<br>「音」は、私たちの知覚や認知に深く作用し、時にその人の世界の感じ方を一変させるような機会をももたらします。私たちはこの「音」を通して、人が他者とコミュニケーションを生み、新たな関係性を創り出していく仕組みに注目した作品を制作してきました。<br>会場では、これまでの作品紹介の映像の他、なでるとオルゴールのような音を奏でる動物の木彫作品や、ネイティブアメリカンの石の声を聴くスキルからインスピレーションを受けて制作した作品「いしのこえ」を展示します。<br><a href="https://mathrax.com" target="_blank">https://mathrax.com</a>
+                </p>
+              </div>
+              <div class="col">
+                <!-- Slider main container -->
+                <div class="swiper img_swiper8 c-anim-up">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <picture >
+                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+                        <source srcset="/images/source_work/ph3_2_1.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/ph3_2_1.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/ph3_2_1.jpg" alt="いしのこえ、風と石">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide">
+                      <picture >
+                      <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+                        <source srcset="/images/source_work/ph3_2_2.jpg" media="(max-width: 899px)" type="image/webp">
+                        <source srcset="/images/source_work/ph3_2_2.jpg" media="(min-width: 900px)">
+                        <img src="/images/source_work/ph3_2_2.jpg" alt="いしのこえ、風と石">
+                      </picture>
+                    </div>
+                  </div>
+                  <!-- If we need scrollbar -->
+                  <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination swiper-pagination8"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-prev8"></div>
+                <div class="swiper-button-next swiper-button-next8"></div>
               </div>
             </div>
           </div>
@@ -699,6 +824,30 @@
 			navigation: {
 				nextEl: '.swiper-button-next7',
 				prevEl: '.swiper-button-prev7',
+			},
+
+			// And if we need scrollbar
+			// scrollbar: {
+			// 	el: '.swiper-scrollbar',
+			// },
+		});
+
+    const swiper8 = new Swiper('.img_swiper8', {
+			// Optional parameters
+			direction: 'horizontal',
+			loop: false,
+      slidesPerView: 1,
+
+			// If we need pagination
+			pagination: {
+				el: '.swiper-pagination8',
+        clickable: true,
+			},
+
+			// Navigation arrows
+			navigation: {
+				nextEl: '.swiper-button-next8',
+				prevEl: '.swiper-button-prev8',
 			},
 
 			// And if we need scrollbar

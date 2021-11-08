@@ -346,4 +346,151 @@
       }
     }
   }
+
+  .sect_6{
+    .wrapper{
+      .container{
+        h4{
+          border-top: 1px solid #191919;
+          @include Ryo_Gothic(700);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 30px;
+          padding: 45px 0 0;
+          margin-bottom: 5px
+        }
+        p{
+          @include Ryo_Gothic(500);
+          font-size: 16px;
+          color: #0d0d0d;
+          line-height: 28.8px;
+          // margin-bottom: 35px;
+          &.text-indent{
+            text-indent: -20px;
+            margin-left: 20px;
+          }
+          a{
+            @include Ryo_Gothic(500);
+            font-size: 16px;
+            color: #0d0d0d;
+            word-wrap: break-word;
+            text-decoration: underline;
+          }
+        }
+        .history {
+          margin-top: 25px;
+          li {
+            display: flex;
+            line-height: 28.8px;
+            span:first-of-type {
+              white-space: nowrap;
+              margin-right: 15px;
+            }
+          }
+        }
+        .item_cont{
+          margin-top: 35px;
+          padding-bottom: 50px;
+          border-bottom: 1px solid #191919;
+          .row{
+            align-items: center;
+            &:not(:last-child){
+              margin-bottom: 40px;
+            }
+            .col{
+              &:first-child{
+                width: 100%;
+                margin-bottom: 15px;
+              }
+              &:last-child{
+                width: 100%;
+                h5{
+                  @include Ryo_Gothic(700);
+                  font-size: 19px;
+                  color: #0d0d0d;
+                  line-height: 28px;
+                  margin-bottom: 5px;
+                }
+                p{
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_7{
+    .wrapper{
+      padding-top: 50px;
+      padding-bottom: 60px;
+      .container{
+        .row{
+          .col{
+            &:first-child{
+              width: 100%;
+              order: 2;
+              ul{
+                li{
+                  &:not(:last-child){
+                    margin-bottom: 30px;
+                  }
+                  &:nth-child(n+2){
+                    p{
+                      margin-top: 5px;
+                    }
+                  }
+                  h4{
+                    @include Ryo_Gothic(700);
+                    font-size: 16px;
+                    color: #0d0d0d;
+                    line-height: 30px;
+                  }
+                  h3{
+                    margin-top: 5px;
+                    @include Ryo_Gothic(700);
+                    font-size: 20px;
+                    color: #0d0d0d;
+                    line-height: 30px;
+                  }
+                  p{
+                    margin-top: 10px;
+                    @include Ryo_Gothic(500);
+                    font-size: 16px;
+                    color: #0d0d0d;
+                    line-height: 28.8px;
+                    a{
+                      @include Ryo_Gothic(500);
+                      font-size: 16px;
+                      color: #0d0d0d;
+                      text-decoration: underline;
+                      word-wrap: break-word;
+                    }
+                  }
+                }
+              }
+            }
+            &:last-child{
+              width: 100%;
+              order: 1;
+              margin-bottom: 20px;
+            }
+          }
+        } 
+      }
+    }
+  }
+
+  .sect_3_2 {
+    .wrapper {
+      padding-top: 0;
+      .container .row {
+        padding-top: 45px;
+        margin-bottom: 50px;
+        border-top: 1px solid #191919;
+      }
+    }
+  }
 }

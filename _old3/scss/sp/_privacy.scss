@@ -1,0 +1,46 @@
+/*==================================
+  Privacy
+==================================*/
+#Privacy main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 50px;
+      .container{
+        .lead {
+          margin-bottom: 50px;
+        }
+
+        .wrap {
+          &:not(:last-of-type){ margin-bottom: 50px;}
+
+          h4 {
+            font-weight: 700;
+            font-size: 20px;
+            color: #0d0d0d;
+            line-height: 30px;
+            margin-bottom: 10px;
+          }
+          dl {
+            &:not(:last-of-type){ margin-bottom: 25px;}
+
+            dt {
+              font-weight: 700;
+              font-size: 18px;
+              color: #0d0d0d;
+              margin-bottom: 10px;
+              text-indent: -17px;
+              margin-left: 17px;
+            }
+            dd {
+              color: #0d0d0d;
+
+            }
+          }
+          p{
+            color: #0d0d0d;
+          }
+        }
+      }
+    }
+  }
+}

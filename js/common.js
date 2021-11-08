@@ -46,11 +46,13 @@ $('.menu').click(function () {
   $('.big_menu').toggleClass('active');
   $('header').toggleClass('active');
   if($('header').hasClass('active')){
-    $("header .logo a img").attr("src","/images/common/header_logo_w.svg").fadeIn(5000);
     $('.svg_menu_btn').attr("stroke", "#fff");
+    $('.menu_icon').css('display', 'none');
+    $('.menu_icon2').css('display', 'block');
   }else{
-    $("header .logo a img").attr("src","/images/common/header_logo.svg").fadeIn(5000);
     $('.svg_menu_btn').attr("stroke", "#000");
+    $('.menu_icon').css('display', 'block');
+    $('.menu_icon2').css('display', 'none');
   }
 });
 
