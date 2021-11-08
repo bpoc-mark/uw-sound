@@ -944,6 +944,9 @@ img[src$=".png"], img[src$=".jpg"] {
   .link_btn:hover .svg_cont svg .svg_btn {
     stroke: #fff;
   }
+  .link_btn:hover .svg_cont svg path {
+    stroke: #fff !important;
+  }
 }
 
 .text_link {
